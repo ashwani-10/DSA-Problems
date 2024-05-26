@@ -1,24 +1,17 @@
 class Solution {
     public boolean isAnagram(String s, String t) {
         
-        if(s.length() != t.length()) return false;
-        
-        boolean flag = true;
-        char tempArrayS[] = s.toCharArray();
-        char tempArrayT[] = t.toCharArray();
+       if (s.length() != t.length()) return false;
 
-        // Sorting temp array using
-        Arrays.sort(tempArrayS);
-        Arrays.sort(tempArrayT);
-        
-        for(int i=0;i<s.length();i++){
-            if(tempArrayS[i] != tempArrayT[i]){
-                flag = false;
-                break;
-            }
+        int[] store = new int[26];
+
+        for (int i = 0; i < s.length(); i++) {
+            store[s.charAt(i) - 'a']++;
+            store[t.charAt(i) - 'a']--;
         }
-        
-        // Returning new sorted string
-        return flag;
+
+        for (int n : store) if (n != 0) return false;
+
+        return true;
     }
 }
