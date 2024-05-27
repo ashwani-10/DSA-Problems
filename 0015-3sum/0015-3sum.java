@@ -3,26 +3,22 @@ class Solution {
         List<List<Integer>> res = new ArrayList<List<Integer>>();
         int n = nums.length;
         Arrays.sort(nums);
-        TreeSet<String> set = new TreeSet<String>();
         for(int i=0;i<n-2;i++){
+            if (i > 0 && nums[i] == nums[i - 1]) {            
+                continue;
+            }
             int left = i+1;
             int right = n-1;
             
             while(left < right){
-                ArrayList<Integer> curr = new ArrayList<>();
                 int sum = nums[i] + nums[left] + nums[right];
                 
                 if(sum == 0){
-                    String str = nums[i]+":" + nums[left]+":" + nums[right];
-                    if(!set.contains(str)){
-                        set.add(str);
-                        curr.add(nums[i]);
-                        curr.add(nums[left]);
-                        curr.add(nums[right]);
-                        res.add(curr);
-                    }
+                    res.add(Arrays.asList(nums[i],nums[left],nums[right]));
                     left++;
                     right--;
+                    while (left < right && nums[left] == nums[left - 1]) left++;  
+                    while (left < right && nums[left] == nums[right + 1]) right--; 
                 }
                 else if(sum > 0){
                     right--;
