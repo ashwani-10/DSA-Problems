@@ -3,6 +3,7 @@ class Solution {
         List<List<Integer>> res = new ArrayList<List<Integer>>();
         int n = nums.length;
         Arrays.sort(nums);
+        TreeSet<String> set = new TreeSet<String>();
         for(int i=0;i<n-2;i++){
             if (i > 0 && nums[i] == nums[i - 1]) {            
                 continue;
@@ -14,11 +15,13 @@ class Solution {
                 int sum = nums[i] + nums[left] + nums[right];
                 
                 if(sum == 0){
-                    res.add(Arrays.asList(nums[i],nums[left],nums[right]));
+                    String str = nums[i]+":"+nums[left]+":"+nums[right];
+                    if(!set.contains(str)){
+                        res.add(Arrays.asList(nums[i],nums[left],nums[right]));
+                        set.add(str);
+                    }
                     left++;
                     right--;
-                    while (left < right && nums[left] == nums[left - 1]) left++;  
-                    while (left < right && nums[left] == nums[right + 1]) right--; 
                 }
                 else if(sum > 0){
                     right--;
