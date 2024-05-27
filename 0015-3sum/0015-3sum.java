@@ -12,16 +12,12 @@ class Solution {
             int right = n-1;
             
             while(left < right){
-                List<Integer> curr = new ArrayList<>();
                 int sum = nums[i] + nums[left] + nums[right];
                 
                 if(sum == 0){
                     String str = nums[i]+":"+nums[left]+":"+nums[right];
                     if(!set.contains(str)){
-                        curr.add(nums[i]);
-                        curr.add(nums[left]);
-                        curr.add(nums[right]);
-                        res.add(curr);
+                        res.add(Arrays.asList(nums[i],nums[left],nums[right]));
                         set.add(str);
                     }
                     left++;
