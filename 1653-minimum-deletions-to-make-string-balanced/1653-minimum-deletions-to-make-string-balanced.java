@@ -6,7 +6,7 @@ class Solution {
         for (int i = 1; i <= n; i++) {
             if (s.charAt(i - 1) == 'b') {
                 f[i] = f[i - 1];
-                ++b;
+                b++;
             } else {
                 f[i] = Math.min(f[i - 1] + 1, b);
             }
