@@ -1,17 +1,19 @@
 class Solution {
     public int minimumDeletions(String s) {
-       int n = s.length();
-        int[] f = new int[n + 1];
-        int b = 0;
-        for (int i = 1; i <= n; i++) {
-            if (s.charAt(i - 1) == 'b') {
-                f[i] = f[i - 1];
-                b++;
-            } else {
-                f[i] = Math.min(f[i - 1] + 1, b);
+        Stack<Character> stack = new Stack<>();
+        int deletions = 0;
+        
+        for (char c : s.toCharArray()) {
+            if (c == 'b') {
+                stack.push(c);
+            } else if (c == 'a') {
+                if (!stack.isEmpty() && stack.peek() == 'b') {
+                    stack.pop(); // Remove the 'b' which makes the string unbalanced
+                    deletions++; // We consider this as a deletion of 'b'
+                }
             }
         }
-        return f[n];
         
+        return deletions;
     }
 }
