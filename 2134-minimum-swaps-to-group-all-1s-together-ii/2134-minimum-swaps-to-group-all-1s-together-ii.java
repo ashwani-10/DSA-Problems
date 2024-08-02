@@ -1,33 +1,17 @@
 class Solution {
     public int minSwaps(int[] nums) {
-        int[] arr = new int[nums.length * 2];
-        int count = 0;
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = nums[i % nums.length];
-            count += arr[i];
+        int k = Arrays.stream(nums).sum();
+        int n = nums.length;
+        int cnt = 0;
+        for (int i = 0; i < k; ++i) {
+            cnt += nums[i];
         }
-        count = count / 2;
-
-        int curSwapCount = 0;
-        for (int i = 0; i < count; i++) {
-            if (arr[i] == 0)
-                curSwapCount += 1;
+        int mx = cnt;
+        for (int i = k; i < n + k; ++i) {
+            cnt += nums[i % n] - nums[(i - k + n) % n];
+            mx = Math.max(mx, cnt);
         }
-        if (curSwapCount == 0)
-            return curSwapCount;
-
-        int ans = curSwapCount;
-        for (int i = count; i < arr.length; i++) {
-            int newNum = arr[i];
-            int oldNum = arr[i - count];
-            if (oldNum == 0)
-                curSwapCount -= 1;
-            if (newNum == 0)
-                curSwapCount += 1;
-            
-            ans = Math.min(ans, curSwapCount);
-        }
-
-        return ans;
+        return k - mx;
+    
     }
 }
