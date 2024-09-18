@@ -13,6 +13,8 @@
  *     }
  * }
  */
+
+// DFS
 class Solution {
     void preOrder(TreeNode root,int level, List<Integer> res){
         if(root == null)
