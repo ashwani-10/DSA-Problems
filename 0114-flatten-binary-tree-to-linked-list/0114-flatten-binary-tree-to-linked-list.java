@@ -15,24 +15,23 @@
  */
 class Solution {
     
-    public void preOrder(TreeNode root,ArrayList<TreeNode> pre){
-        if(root == null) return;
-        
-        pre.add(root);
-        preOrder(root.left,pre);
-        preOrder(root.right,pre);
-    }
-    
     public void flatten(TreeNode root) {
-        ArrayList<TreeNode> pre = new ArrayList<>();
-        
-        preOrder(root,pre);
-        
-        for(int i=0;i<pre.size()-1;i++){
-            pre.get(i).left = null;
-            pre.get(i).right = pre.get(i+1);
+         if(root == null) return;
+
+        flatten(root.left);
+        flatten(root.right);
+
+        TreeNode temp = root.right;
+
+        root.right = root.left;
+        root.left = null;
+
+        TreeNode current = root;
+
+        while(current.right != null){
+            current = current.right;
         }
-        if(pre.size()>1)
-        pre.get(pre.size()-1).right = null;
+
+        current.right = temp;
     }
 }
