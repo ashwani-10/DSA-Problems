@@ -1,31 +1,45 @@
 class CustomStack {
-	int[] stack;
-    int size;
-    int index;
+    ArrayList<Integer> arr = new ArrayList();
+    ArrayList<Integer> inc = new ArrayList();
+    int n;
+    
     public CustomStack(int maxSize) {
-        stack = new int[maxSize];
-        size = maxSize;
-        index=0;
+        n = maxSize;
     }
-
+    
     public void push(int x) {
-       if (index<size){
-            stack[index++] = x;
+        if(arr.size() < n){
+            arr.add(x);
+            inc.add(0);
         }
     }
-
+    
     public int pop() {
-        if(index == 0) return -1;
-        return stack[--index];
+        if(arr.size() == 0)
+            return -1;
+        
+        int idx = arr.size()-1;
+        
+        if(idx > 0){
+            inc.set(idx-1,inc.get(idx-1) + inc.get(idx));
+        }
+        
+        int top_val = arr.get(idx) + inc.get(idx);
+    
+        arr.remove(arr.size()-1);
+        inc.remove(inc.size()-1);
+        
+        return top_val;
     }
-
+    
     public void increment(int k, int val) {
-        if(stack.length == 0) return;
-        for(int i = 0;i<k && i<stack.length;i++)
-            stack[i] = stack[i] + val;
+        int idx = Math.min(k,arr.size())-1;
+        
+        if(idx >=0){
+            inc.set(idx,inc.get(idx)+val);
+        }
     }
-    }
-
+}
 
 /**
  * Your CustomStack object will be instantiated and called as such:
