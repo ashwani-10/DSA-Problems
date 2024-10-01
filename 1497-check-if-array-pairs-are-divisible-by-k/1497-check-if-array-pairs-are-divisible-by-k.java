@@ -4,7 +4,9 @@ class Solution {
 
         // Calculate the remainder frequencies
         for (int num : arr) {
-            int rem = (num % k + k) % k;  // Handle negative remainders
+            int rem = num%k;  // Handle negative remainders
+            if(rem < 0)
+                rem += k;
             mp[rem]++;
         }
 
