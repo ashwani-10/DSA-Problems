@@ -1,27 +1,47 @@
 class Solution {
-     public boolean checkInclusion(String s1, String s2) {
-	    if(s1.length() > s2.length()) return false;
-        
-        int[] arr1 = new int[26];
-        int[] arr2 = new int[26];
-        
-        for(int i = 0; i < s1.length(); i++){
-            arr1[s1.charAt(i) - 'a']++;
-            arr2[s2.charAt(i) - 'a']++;
-        }
-        
-        if(Arrays.equals(arr1, arr2)) return true;
-        
-        int front = 0;
-        int back = s1.length();
-        while(back < s2.length()){
-            arr2[s2.charAt(front) - 'a']--;
-            arr2[s2.charAt(back) - 'a']++;
-            
-            if(Arrays.equals(arr1, arr2)) return true;
-            front++;
-            back++;
-        }
+    public boolean checkInclusion(String t, String s) {
+        int n = t.length();
+
+        if(n > s.length())
         return false;
+        
+        HashMap<Character,Integer> map = new HashMap();
+        for(int i=0;i<t.length();i++){
+            char c = t.charAt(i);
+            map.put(c,map.getOrDefault(c,0)+1);
+        }
+
+        int reqChar = t.length();
+        int i=0,j=0,start_i=0;
+        int minWindow = Integer.MAX_VALUE;
+
+        while(j<s.length()){
+            char ch = s.charAt(j);
+
+            if(map.containsKey(ch) && map.get(ch)>0)
+            reqChar--;
+
+            map.put(ch,map.getOrDefault(ch,0)-1);
+
+            while(reqChar == 0){
+                int currWindow = j-i+1;
+
+                if(minWindow > currWindow){
+                    minWindow = currWindow;
+                    start_i = i;
+                }
+
+                char startChar = s.charAt(i);
+                map.put(startChar,map.getOrDefault(startChar,0)+1);
+
+                if(map.containsKey(startChar) && map.get(startChar) > 0)
+                reqChar++;
+
+                i++;
+            }
+            j++;
+        }
+
+        return minWindow == n ? true : false;
     }
 }
