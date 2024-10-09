@@ -8,12 +8,9 @@ class Solution {
             if(s.charAt(i) == '('){
                 st.push('(');
             }
-            else{
-                if(st.empty())
-                    res++;
-                else
-                    st.pop();
-            }
+            else if (!st.empty())
+                st.pop();
+            else res++;
         }
         
         return res+st.size();
