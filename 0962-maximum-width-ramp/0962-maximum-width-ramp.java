@@ -14,7 +14,7 @@ class Solution {
             if(maxArr[r] >= nums[l])
                 width = Math.max(width,r-l);
             
-            while(nums[l] > maxArr[r])
+            while(l<r && nums[l] > maxArr[r])
                 l++;
             
             r++;
