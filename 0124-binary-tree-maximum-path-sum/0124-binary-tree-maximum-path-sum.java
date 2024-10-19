@@ -26,8 +26,7 @@ class Solution {
     }
     public int maxPathSum(TreeNode root) {
         if(root.left == null && root.right ==null) return root.val;
-        int sum[] = new int[1];
-        sum[0] = Integer.MIN_VALUE;
+        int sum[] = new int[]{root.val};
         findMax(root,sum);
         return sum[0];
     }
