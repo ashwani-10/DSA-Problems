@@ -1,36 +1,38 @@
 class Solution {
+    public void twosum(int i,int j,int target,int[] nums,List<List<Integer>> result){
+        while(i<j){
+            if(nums[i] + nums[j] == target){
+                while(i<j && nums[i] == nums[i+1])
+                i++;
+                while(i<j && nums[j] == nums[j-1])
+                j--;
+
+                result.add(new ArrayList<>(Arrays.asList(-target,nums[i],nums[j])));
+                i++;
+                j--;
+            }
+
+            else if(nums[i] + nums[j] > target)
+            j--;
+            else
+            i++;
+        }
+    }
     public List<List<Integer>> threeSum(int[] nums) {
-        List<List<Integer>> res = new ArrayList<List<Integer>>();
+        List<List<Integer>> result = new ArrayList<>();
         int n = nums.length;
         Arrays.sort(nums);
-        TreeSet<String> set = new TreeSet<String>();
-        for(int i=0;i<n-2;i++){
-            if (i > 0 && nums[i] == nums[i - 1]) {            
+
+        for(int i=0;i<n;i++){
+            if(i>0 && nums[i] == nums[i-1]){
                 continue;
             }
-            int left = i+1;
-            int right = n-1;
-            
-            while(left < right){
-                int sum = nums[i] + nums[left] + nums[right];
-                
-                if(sum == 0){
-                    String str = nums[i]+":"+nums[left]+":"+nums[right];
-                    if(!set.contains(str)){
-                        res.add(Arrays.asList(nums[i],nums[left],nums[right]));
-                        set.add(str);
-                    }
-                    left++;
-                    right--;
-                }
-                else if(sum > 0){
-                    right--;
-                }
-                 else if(sum < 0){
-                    left++;
-                }
-            }
+
+            int n1 = nums[i];
+            int target = -n1;
+
+            twosum(i+1,n-1,target,nums,result);
         }
-        return res;
+        return result;
     }
 }
