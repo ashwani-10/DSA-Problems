@@ -29,7 +29,7 @@ class Solution {
             Arrays.fill(row,Integer.MAX_VALUE);
         }
         
-        PriorityQueue<pair> pq = new PriorityQueue<>((p1,p2) -> (p1.wt-p2.wt));
+        Queue<pair> pq = new LinkedList<>();
         pq.add(new pair(0,0,0));
         dis[0][0] = 0;
         
