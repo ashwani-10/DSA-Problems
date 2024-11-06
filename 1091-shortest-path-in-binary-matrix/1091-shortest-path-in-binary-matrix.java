@@ -1,10 +1,12 @@
 class pair{
-    int first;
-    int second;
+    int x;
+    int y;
+    int wt;
     
-    pair(int x,int y){
-        first = x;
-        second = y;
+    pair(int x,int y,int wt){
+        this.x=x;
+        this.y=y;
+        this.wt=wt;
     }
 }
 
@@ -21,36 +23,37 @@ class Solution {
         
         if(n==0 || m==0 || grid[0][0] != 0) return -1;
         
-        Queue<pair> q = new LinkedList<>();
-        q.add(new pair(0,0));
-        grid[0][0] = 1;
+        int dis[][] = new int[n][m];
         
-        int level = 0;
+        for(int []row : dis){
+            Arrays.fill(row,Integer.MAX_VALUE);
+        }
         
-        while(!q.isEmpty()){
-            int size = q.size();
+        PriorityQueue<pair> pq = new PriorityQueue<>((p1,p2) -> (p1.wt-p2.wt));
+        pq.add(new pair(0,0,0));
+        dis[0][0] = 0;
+        
+        while(!pq.isEmpty()){
+            pair p = pq.remove();
             
-            while(size > 0){
-            pair p = q.remove();
-            
-            int x = p.first;
-            int y = p.second;
-            
-            if(x==n-1 && y== m-1) return level+1;
+            int x = p.x;
+            int y = p.y;
+            int wt = p.wt;
             
             for(int [] d : dir){
                 int nx = x + d[0];
                 int ny = y + d[1];
                 
-                if(isSafe(nx,ny,n,m) && grid[nx][ny] == 0){
-                    q.add(new pair(nx,ny));
-                    grid[nx][ny] = 1;
+                int dist = 1;
+                
+                if(isSafe(nx,ny,n,m) && grid[nx][ny] == 0 && wt+dist < dis[nx][ny]){
+                    pq.add(new pair(nx,ny,wt+dist));
+                    dis[nx][ny] = wt+dist;
                 }
             }
-                size--;
         }
-            level++;
-        }
-        return -1;
+        if(dis[n-1][m-1] == Integer.MAX_VALUE) return -1;
+        
+        return dis[n-1][m-1]+1;
     }
 }
