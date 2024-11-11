@@ -48,8 +48,7 @@ class Solution {
         if(carry > 0){
             dummy.next = new ListNode(carry);
         }
-        ListNode res = cur.next;
         
-        return res;
+        return cur.next;
     }
 }
