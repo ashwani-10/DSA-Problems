@@ -49,7 +49,6 @@ class Solution {
             dummy.next = new ListNode(carry);
         }
         ListNode res = cur.next;
-        cur.next = null;
         
         return res;
     }
