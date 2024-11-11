@@ -28,7 +28,7 @@ class Solution {
         Queue<TreeNode> q = new LinkedList<>();
         q.add(root);
         int mSum = Integer.MIN_VALUE;
-        pair p = new pair(0,0);
+        int ans = 0;
         
         int lvl = 0;
         
@@ -49,9 +49,9 @@ class Solution {
             if(sum > mSum){
                 mSum = sum;
                 
-                p = new pair(mSum,lvl);
+                ans = lvl;
             }
         }
-        return p.lvl;
+        return ans;
     }
 }
