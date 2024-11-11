@@ -27,9 +27,7 @@ class Solution {
         return prev;
         
     }
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode h1 = l1;
-        ListNode h2 = l2;
+    public ListNode addTwoNumbers(ListNode h1, ListNode h2) {
         
         int carry = 0;
         ListNode cur = new ListNode(0);
