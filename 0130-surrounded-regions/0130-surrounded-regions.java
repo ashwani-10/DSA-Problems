@@ -1,6 +1,6 @@
 class Solution {
     public void dfs(char [][] board,int i,int j,int vis[][]){
-        if(i<0 || i>=board.length || j<0 || j>=board[0].length || board[i][j] != 'O') return;
+        if(i<0 || i>=board.length || j<0 || j>=board[0].length || vis[i][j] == 1 || board[i][j] != 'O') return;
         
         board[i][j] = 'F';
         vis[i][j] = 1;
