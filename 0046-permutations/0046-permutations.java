@@ -25,7 +25,6 @@ class Solution {
     public List<List<Integer>> permute(int[] arr) {
         int n = arr.length;
         List<List<Integer>> result = new ArrayList();
-        Arrays.sort(arr);
         
         helper(arr,n,0,result);
         
