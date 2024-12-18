@@ -3,7 +3,7 @@ class Solution {
         int n = prices.length;
         int[] ans = new int[n];
     
-        for(int i=0;i<n-1;i++){
+        for(int i=0;i<n;i++){
                 boolean flag = false;
             for(int j=i+1;j<n;j++){
                     if(prices[j] <= prices[i]){
