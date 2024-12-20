@@ -14,21 +14,37 @@
  * }
  */
 class Solution {
-    public void invertOdd(TreeNode root1,TreeNode root2,int level){
-            if(root1 == null || root2 == null) return;
+    public TreeNode reverseOddLevels(TreeNode root) {
+        if(root == null) return null;
             
-            if(level%2 != 0){
-               int temp = root1.val;
-               root1.val = root2.val;
-               root2.val = temp;
+        Queue<TreeNode> q = new LinkedList<>();
+        q.add(root);
+        int level = 0;
+        while(!q.isEmpty()){
+            int size = q.size();
+            
+            while(size > 0){
+                TreeNode temp = q.remove();
+                if(temp.left != null) q.add(temp.left);
+                if(temp.right != null) q.add(temp.right);
+                size--;
             }
             
-            invertOdd(root1.left,root2.right,level+1);
-            invertOdd(root1.right,root2.left,level+1);
-    }
-    public TreeNode reverseOddLevels(TreeNode root) {
-        invertOdd(root.left,root.right,1);
-            
-            return root;
+           level++;
+           if(level %2 != 0 && !q.isEmpty()){
+              int[] values = new int[q.size()];
+              int i=0;
+              for(TreeNode node : q){
+                 values[i++] = node.val;
+              }
+                   
+             int j = q.size()-1;
+           for(TreeNode node : q){
+              node.val = values[j--];
+           }
+           }
+           
+        }
+        return root;
     }
 }
