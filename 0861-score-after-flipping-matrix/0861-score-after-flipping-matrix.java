@@ -30,12 +30,11 @@ class Solution {
 
         for(int i = 0; i < m; i++) {
             int temp = 0;
-            for(int j = n-1; j >=0; j--) {
-                if(grid[i][j] == 1){
-                        ans += Math.pow(2,temp);
-                }
-                    temp++;
+            for(int j = 0; j < n; j++) {
+                temp = temp * 2 +  grid[i][j];
             }
+
+            ans += temp;
         }
 
         return ans;
