@@ -2,7 +2,7 @@ class Solution {
     public String reverseStr(String s, int k) {
         char[] str = s.toCharArray();
         int n = str.length;
-        if(n==1) return s;
+        
         for(int i=0;i<=n-1;i += 2*k){
             if(i+k-1 <= n-1){
                 reverse(i,i+k-1,str);
