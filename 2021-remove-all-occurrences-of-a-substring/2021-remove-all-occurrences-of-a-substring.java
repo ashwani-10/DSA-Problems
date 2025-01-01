@@ -1,29 +1,19 @@
 class Solution {
     public String removeOccurrences(String s, String part) {
-        Stack<Character> st = new Stack<>();
-
-        for(char c : s.toCharArray()){
-            st.push(c);
-            if(st.size() >= part.length() && st.peek() == part.charAt(part.length()-1)){
-                StringBuilder temp = new StringBuilder();
-
-                for(int i=0;i<part.length();i++){
-                    temp.append(st.pop());
-                }
-                temp.reverse();
-
-                if(!temp.toString().equals(part)){
-                    for(char ch : temp.toString().toCharArray()){
-                        st.push(ch);
-                    }
-                }
-            }
+    int sLen = s.length();
+    int partLen = part.length();
+    StringBuilder sb = new StringBuilder();
+	
+    for(int i = 0; i < sLen; ++i) {
+        sb.append(s.charAt(i));
+		int startIndexOfPart = sb.length() - partLen;
+		
+        if(sb.length() >= part.length() &&
+          sb.substring(startIndexOfPart, sb.length()).equals(part)) {
+		  
+            sb.setLength(startIndexOfPart);
         }
-
-        StringBuilder ans = new StringBuilder();
-        while(!st.isEmpty()){
-            ans.append(st.pop());
-        }
-        return ans.reverse().toString();
     }
+    return sb.toString();
+}
 }
