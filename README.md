@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1025-minimum-cost-for-tickets](https://github.com/ashwani-10/DSA-Problems/tree/master/1025-minimum-cost-for-tickets) |
 | [1651-shuffle-string](https://github.com/ashwani-10/DSA-Problems/tree/master/1651-shuffle-string) |
+| [2691-count-vowel-strings-in-ranges](https://github.com/ashwani-10/DSA-Problems/tree/master/2691-count-vowel-strings-in-ranges) |
 ## String
 |  |
 | ------- |
@@ -13,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1537-maximum-score-after-splitting-a-string](https://github.com/ashwani-10/DSA-Problems/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1651-shuffle-string](https://github.com/ashwani-10/DSA-Problems/tree/master/1651-shuffle-string) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/ashwani-10/DSA-Problems/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [2691-count-vowel-strings-in-ranges](https://github.com/ashwani-10/DSA-Problems/tree/master/2691-count-vowel-strings-in-ranges) |
 ## Two Pointers
 |  |
 | ------- |
@@ -26,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/ashwani-10/DSA-Problems/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [2691-count-vowel-strings-in-ranges](https://github.com/ashwani-10/DSA-Problems/tree/master/2691-count-vowel-strings-in-ranges) |
 ## Stack
 |  |
 | ------- |
