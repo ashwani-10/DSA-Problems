@@ -12,14 +12,16 @@ class Solution {
 
         Collections.sort(list);
         
-        int removedElement = 0;
-        for(int i=0;i<list.size();i++){
-            removedElement += list.get(i);
+        int i=0;
+        while(k>0 && i<list.size()){
 
-            if(removedElement > k){
-                return list.size() - i;
+            if(list.get(i) <= k){
+                k -= list.get(i);
+                list.remove(i);
+            }else{
+                break;
             }
         }
-        return 0;
+        return list.size();
     }
 }
