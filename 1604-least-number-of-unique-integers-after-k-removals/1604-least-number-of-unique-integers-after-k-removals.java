@@ -8,26 +8,18 @@ class Solution {
             map.put(arr[i],map.getOrDefault(arr[i],0)+1);
          }
 
-        List<Pair<Integer,Integer>> list = new ArrayList<>();
+        List<Integer> list = new ArrayList<>(map.values());
 
-        for(Map.Entry<Integer,Integer> entry : map.entrySet()){
-            list.add(new Pair<>(entry.getKey(),entry.getValue()));
-        }
+        Collections.sort(list);
+        
+        int removedElement = 0;
+        for(int i=0;i<list.size();i++){
+            removedElement += list.get(i);
 
-        list.sort(Comparator.comparing(Pair::getValue));
-
-        int i=0;
-        while(k>0 && i<list.size()){
-            Pair<Integer,Integer> pair = list.get(i);
-            int freq = pair.getValue();
-
-            if(freq <= k){
-                k -= freq;
-                list.remove(i);
-            }else{
-                break;
+            if(removedElement > k){
+                return list.size() - i;
             }
         }
-        return list.size();
+        return 0;
     }
 }
