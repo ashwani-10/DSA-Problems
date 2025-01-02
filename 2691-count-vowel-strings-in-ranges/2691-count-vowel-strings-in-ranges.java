@@ -9,27 +9,25 @@ class Solution {
         set.add('u');
 
         int n = queries.length;
-        int[] vowelWords = new int[words.length];
+        int sum = 0;
+        int[] pSum = new int[words.length];
         for(int i=0;i<words.length;i++){
             String word = words[i];
             if(set.contains(word.charAt(0)) && set.contains(word.charAt(word.length()-1))){
-                vowelWords[i] = 1;
+                sum++;
             }
+            pSum[i] = sum;
         }
-        int[] pSum = new int[words.length];
-        pSum[0] = vowelWords[0];
-
-        for(int i=1;i<vowelWords.length;i++){
-            pSum[i] = vowelWords[i] + pSum[i-1];
-        }
-
         int[] ans = new int[n];
 
         for(int i=0;i<n;i++){
             int start = queries[i][0];
             int end = queries[i][1];
             if(start == end){
-                ans[i] = vowelWords[start];
+                if(start == 0 && end == 0)
+                ans[i] = pSum[start];
+                else
+                ans[i] = pSum[start]-pSum[start-1];
             }
             else if(start != 0 && start != end)
             ans[i] += pSum[end] - pSum[start-1];
