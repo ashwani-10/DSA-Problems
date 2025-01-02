@@ -23,16 +23,7 @@ class Solution {
         for(int i=0;i<n;i++){
             int start = queries[i][0];
             int end = queries[i][1];
-            if(start == end){
-                if(start == 0 && end == 0)
-                ans[i] = pSum[start];
-                else
-                ans[i] = pSum[start]-pSum[start-1];
-            }
-            else if(start != 0 && start != end)
-            ans[i] += pSum[end] - pSum[start-1];
-            else if(start ==0)
-            ans[i] += pSum[end];
+            ans[i] += pSum[end] - (start == 0 ? 0 : pSum[start-1]);
         }
         return ans;
 
