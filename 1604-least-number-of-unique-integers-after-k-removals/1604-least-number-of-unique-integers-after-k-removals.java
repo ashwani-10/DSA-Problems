@@ -17,11 +17,11 @@ class Solution {
 
             if(list.get(i) <= k){
                 k -= list.get(i);
-                list.remove(i);
+                i++;
             }else{
                 break;
             }
         }
-        return list.size();
+        return list.size()-i;
     }
 }
