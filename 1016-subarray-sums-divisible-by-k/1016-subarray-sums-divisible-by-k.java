@@ -8,13 +8,16 @@ class Solution {
         int count = 0;
         
         for(int i=0;i<n;i++){
-            sum = (sum + nums[i])%k;
-            if(sum < 0) sum += k;
-        
-            if(map.containsKey(sum)){
-                count += map.get(sum);
+            sum += nums[i];
+            
+            int rem = sum%k;
+            
+            if(rem < 0) rem += k;
+            
+            if(map.containsKey(rem)){
+                count += map.get(rem);
             }
-             map.put(sum,map.getOrDefault(sum,0)+1);
+             map.put(rem,map.getOrDefault(rem,0)+1);
         }
         return count;
     }
