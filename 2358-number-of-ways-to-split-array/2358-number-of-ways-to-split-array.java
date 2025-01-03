@@ -10,7 +10,9 @@ class Solution {
         int count = 0;
 
         for(int i=0;i<n-1;i++){
-            if(pSum[i] >= pSum[n-1]-pSum[i])
+            long left = pSum[i];
+            long right = pSum[n-1]-pSum[i];
+            if(left >= right)
             count++;
         }
         return count;
