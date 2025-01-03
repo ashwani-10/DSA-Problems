@@ -4,22 +4,16 @@ class Solution {
         HashMap<Integer,Integer> map = new HashMap<>();
         map.put(0,-1);
         int sum = 0;
-        int count = 0;
-        
+          
         for(int i=0;i<n;i++){
-            sum += nums[i];
+            sum = (sum + nums[i])%k;
             
-            int rem = sum%k;
-            
-            if(rem < 0) rem += k;
-            
-            if(!map.containsKey(rem)){
-                    map.put(rem,i);
+            if(map.containsKey(sum)){
+                if(i - map.get(sum) > 1)
+                return true;
             }
-
-            if(map.containsKey(rem) && i - map.get(rem) > 1){
-                    return true;
-            }
+            else
+            map.put(sum,i);
              
         }
         return false;
