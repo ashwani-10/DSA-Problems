@@ -1,38 +1,23 @@
 class Solution {
     public int leastInterval(char[] tasks, int n) {
-        Map<Character,Integer> map = new HashMap<>();
+        int[] sch = new int[26];
 
         for(char ch : tasks){
-            map.put(ch,map.getOrDefault(ch,0)+1);
+            sch[ch-'A']++;
         }
 
-        int maxFrq = 0;
-        char maxFrqCh = '\u0000';
-        for(Map.Entry<Character,Integer> entry : map.entrySet()){
-            char ch = entry.getKey();
-            int frq = entry.getValue();
-            if(frq>=maxFrq){
-                maxFrq = frq;
-                maxFrqCh = ch;
-            }
-        }
-
-        int emptySpace = maxFrq-1;
+        Arrays.sort(sch);
+        int maxF = sch[25];
+        int emptySpace = maxF-1;
         int slots = n*emptySpace;
 
-        for(Map.Entry<Character,Integer> entry : map.entrySet()){
-            char ch = entry.getKey();
-            int frq = entry.getValue();
-            if(frq == maxFrq && ch != maxFrqCh){
-                slots -= Math.min(frq,emptySpace);
-            }else if(frq != maxFrq){
-                slots -= Math.min(frq,emptySpace);
-            }
+        for(int i=24;i>=0;i--){
+            slots -= Math.min(sch[i],emptySpace);
         }
+
         if(slots > 0)
         return tasks.length + slots;
 
         return tasks.length;
-        
     }
 }
