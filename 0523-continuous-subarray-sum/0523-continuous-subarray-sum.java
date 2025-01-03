@@ -6,14 +6,16 @@ class Solution {
         int sum = 0;
           
         for(int i=0;i<n;i++){
-            sum = (sum + nums[i])%k;
+            sum += nums[i];
+
+            int rem = sum%k;
             
-            if(map.containsKey(sum)){
-                if(i - map.get(sum) > 1)
+            if(map.containsKey(rem)){
+                if(i - map.get(rem) > 1)
                 return true;
             }
             else
-            map.put(sum,i);
+            map.put(rem,i);
              
         }
         return false;
