@@ -7,8 +7,8 @@ class Solution {
         }
 
         Arrays.sort(sch);
-        int maxF = sch[25];
-        int emptySpace = maxF-1;
+    
+        int emptySpace = sch[25]-1;
         int slots = n*emptySpace;
 
         for(int i=24;i>=0;i--){
