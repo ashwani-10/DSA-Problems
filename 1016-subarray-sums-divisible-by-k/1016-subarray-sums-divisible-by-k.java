@@ -8,7 +8,7 @@ class Solution {
         int count = 0;
         
         for(int num : nums){
-            sum = ((sum + num) % k + k)%k;
+            sum = (sum + num % k + k)%k;
 
             count += map[sum];
             map[sum]++;
