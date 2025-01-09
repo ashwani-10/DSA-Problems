@@ -3,9 +3,7 @@ class Solution {
         int ans = 0;
         for(int i=0;i<words.length;i++){
             String word = words[i];
-            if(word.length() > s.length())
-            continue;
-            if(s.substring(0,word.length()).equals(word))
+            if(word.length() <= s.length() && s.substring(0,word.length()).equals(word))
             ans++;
         }
         return ans;
