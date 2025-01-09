@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1651-shuffle-string](https://github.com/ashwani-10/DSA-Problems/tree/master/1651-shuffle-string) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/ashwani-10/DSA-Problems/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/ashwani-10/DSA-Problems/tree/master/2292-counting-words-with-a-given-prefix) |
+| [2341-count-prefixes-of-a-given-string](https://github.com/ashwani-10/DSA-Problems/tree/master/2341-count-prefixes-of-a-given-string) |
 | [2358-number-of-ways-to-split-array](https://github.com/ashwani-10/DSA-Problems/tree/master/2358-number-of-ways-to-split-array) |
 | [2465-shifting-letters-ii](https://github.com/ashwani-10/DSA-Problems/tree/master/2465-shifting-letters-ii) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/ashwani-10/DSA-Problems/tree/master/2691-count-vowel-strings-in-ranges) |
@@ -28,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/ashwani-10/DSA-Problems/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/ashwani-10/DSA-Problems/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/ashwani-10/DSA-Problems/tree/master/2292-counting-words-with-a-given-prefix) |
+| [2341-count-prefixes-of-a-given-string](https://github.com/ashwani-10/DSA-Problems/tree/master/2341-count-prefixes-of-a-given-string) |
 | [2465-shifting-letters-ii](https://github.com/ashwani-10/DSA-Problems/tree/master/2465-shifting-letters-ii) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/ashwani-10/DSA-Problems/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/ashwani-10/DSA-Problems/tree/master/3309-count-prefix-and-suffix-pairs-i) |
