@@ -1,11 +1,11 @@
 class Solution {
     public int coinChange(int[] coins, int amount) {
-        int[] memo = new int[amount+1];
+        Integer[] memo = new Integer[amount+1];
         
         return helper(coins,amount,memo);
     }
 
-    public int helper(int[] coins,int amount,int[] memo){
+    public int helper(int[] coins,int amount,Integer[] memo){
         if(amount == 0){
             return 0;
         }
@@ -14,7 +14,7 @@ class Solution {
             return -1;
         }
 
-        if(memo[amount] != 0){
+        if(memo[amount] != null){
             return memo[amount];
         }
 
