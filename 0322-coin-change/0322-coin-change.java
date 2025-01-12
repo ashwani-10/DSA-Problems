@@ -1,34 +1,38 @@
 class Solution {
+
+    int[] dp;
     public int coinChange(int[] coins, int amount) {
-        Integer[] memo = new Integer[amount+1];
-        
-        return helper(coins,amount,memo);
+
+        dp = new int[amount + 1];
+        Arrays.fill(dp, -1);
+        int ans = coinCount(coins, amount);
+        return (ans == Integer.MAX_VALUE) ?  -1 : ans;
     }
 
-    public int helper(int[] coins,int amount,Integer[] memo){
-        if(amount == 0){
+    int coinCount(int[] coins, int amount) {
+
+        if(amount == 0) {
             return 0;
         }
-
-        if(amount < 0){
-            return -1;
+        if(amount < 0) {
+            return Integer.MAX_VALUE;
         }
 
-        if(memo[amount] != null){
-            return memo[amount];
+        if(dp[amount] != -1) {
+            return dp[amount];
         }
 
         int minCoins = Integer.MAX_VALUE;
+        for(int i = 0; i < coins.length; i++) {
+            int ans = coinCount(coins, amount - coins[i]);
 
-        for(int coin : coins){
-            int res = helper(coins,amount-coin,memo);
-            if(res >= 0 && res < minCoins){
-                minCoins = res + 1;
+            if(ans != Integer.MAX_VALUE) {
+
+                //we have returned 0 in ans, so now we are updating the ans count
+                //hence 1 + ans
+                minCoins = Math.min(minCoins, 1 + ans);
             }
         }
-
-        memo[amount] = minCoins == Integer.MAX_VALUE ? -1 : minCoins;
-
-        return memo[amount];
+        return dp[amount] = minCoins;
     }
 }
