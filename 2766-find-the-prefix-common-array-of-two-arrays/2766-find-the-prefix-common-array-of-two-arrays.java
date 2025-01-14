@@ -13,9 +13,7 @@ class Solution {
           if(map.containsKey(B[j])){
                 count++;
                 ans[i] = count;
-          }else{
-          ans[i] = count;
-        }
+          }
       }
     }
     return ans;
