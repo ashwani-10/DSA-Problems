@@ -143,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/ashwani-10/DSA-Problems/tree/master/0146-lru-cache) |
+| [0237-delete-node-in-a-linked-list](https://github.com/ashwani-10/DSA-Problems/tree/master/0237-delete-node-in-a-linked-list) |
 ## Design
 |  |
 | ------- |
