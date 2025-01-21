@@ -1,36 +1,48 @@
+class Pair{
+    int row;
+    int col;
+
+    Pair(int row,int col){
+        this.row = row;
+        this.col = col;
+    }
+}
+
 class Solution {
     public int firstCompleteIndex(int[] arr, int[][] mat) {
+        
         int n = mat.length;
         int m = mat[0].length;
 
-        Map<Integer,Integer> map = new HashMap<>();
-        for(int i=0;i<arr.length;i++){
-            map.put(arr[i],i);
-        }
 
-        int result = Integer.MAX_VALUE;
+        Map<Integer,int[]> map = new HashMap<>();
 
         for(int i=0;i<n;i++){
-            int maxIndex = Integer.MIN_VALUE;
             for(int j=0;j<m;j++){
-                int idx = map.get(mat[i][j]);
-
-                maxIndex = Math.max(maxIndex,idx);
+                int val = mat[i][j];
+                map.put(val,new int[]{i,j});
             }
-            result = Math.min(maxIndex,result);
         }
 
-        for(int i=0;i<m;i++){
-            int maxIndex = Integer.MIN_VALUE;
-            for(int j=0;j<n;j++){
-                int idx = map.get(mat[j][i]);
+        int[] cRow = new int[n];
+        int[] cCol = new int[m];
 
-                maxIndex = Math.max(maxIndex,idx);
+        for(int i=0;i<arr.length;i++){
+            int val = arr[i];
+            int[] cordi = map.get(val);
+
+            int row = cordi[0];
+            int col = cordi[1];
+
+            cRow[row]++;
+            cCol[col]++;
+
+            if(cRow[row] == m || cCol[col] == n){
+                return i;
             }
-            result = Math.min(maxIndex,result);
         }
 
-        return result;
+        return -1;
 
     }
 }
