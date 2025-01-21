@@ -15,12 +15,12 @@ class Solution {
         int m = mat[0].length;
 
 
-        Map<Integer,int[]> map = new HashMap<>();
+        Map<Integer,Pair> map = new HashMap<>();
 
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
                 int val = mat[i][j];
-                map.put(val,new int[]{i,j});
+                map.put(val,new Pair(i,j));
             }
         }
 
@@ -29,15 +29,12 @@ class Solution {
 
         for(int i=0;i<arr.length;i++){
             int val = arr[i];
-            int[] cordi = map.get(val);
+            Pair pair = map.get(val);
 
-            int row = cordi[0];
-            int col = cordi[1];
+            cRow[pair.row]++;
+            cCol[pair.col]++;
 
-            cRow[row]++;
-            cCol[col]++;
-
-            if(cRow[row] == m || cCol[col] == n){
+            if(cRow[pair.row] == m || cCol[pair.col] == n){
                 return i;
             }
         }
