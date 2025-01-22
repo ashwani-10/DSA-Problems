@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/ashwani-10/DSA-Problems/tree/master/0621-task-scheduler) |
 | [0645-set-mismatch](https://github.com/ashwani-10/DSA-Problems/tree/master/0645-set-mismatch) |
 | [0665-non-decreasing-array](https://github.com/ashwani-10/DSA-Problems/tree/master/0665-non-decreasing-array) |
+| [0713-subarray-product-less-than-k](https://github.com/ashwani-10/DSA-Problems/tree/master/0713-subarray-product-less-than-k) |
 | [0952-word-subsets](https://github.com/ashwani-10/DSA-Problems/tree/master/0952-word-subsets) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/ashwani-10/DSA-Problems/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1025-minimum-cost-for-tickets](https://github.com/ashwani-10/DSA-Problems/tree/master/1025-minimum-cost-for-tickets) |
@@ -70,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0523-continuous-subarray-sum](https://github.com/ashwani-10/DSA-Problems/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/ashwani-10/DSA-Problems/tree/master/0525-contiguous-array) |
+| [0713-subarray-product-less-than-k](https://github.com/ashwani-10/DSA-Problems/tree/master/0713-subarray-product-less-than-k) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/ashwani-10/DSA-Problems/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/ashwani-10/DSA-Problems/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/ashwani-10/DSA-Problems/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -216,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/ashwani-10/DSA-Problems/tree/master/0287-find-the-duplicate-number) |
+| [0713-subarray-product-less-than-k](https://github.com/ashwani-10/DSA-Problems/tree/master/0713-subarray-product-less-than-k) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -224,4 +227,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/ashwani-10/DSA-Problems/tree/master/0347-top-k-frequent-elements) |
+## Sliding Window
+|  |
+| ------- |
+| [0713-subarray-product-less-than-k](https://github.com/ashwani-10/DSA-Problems/tree/master/0713-subarray-product-less-than-k) |
 <!---LeetCode Topics End-->
