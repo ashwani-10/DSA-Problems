@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0053-maximum-subarray](https://github.com/ashwani-10/DSA-Problems/tree/master/0053-maximum-subarray) |
 | [0079-word-search](https://github.com/ashwani-10/DSA-Problems/tree/master/0079-word-search) |
+| [0287-find-the-duplicate-number](https://github.com/ashwani-10/DSA-Problems/tree/master/0287-find-the-duplicate-number) |
 | [0322-coin-change](https://github.com/ashwani-10/DSA-Problems/tree/master/0322-coin-change) |
 | [0523-continuous-subarray-sum](https://github.com/ashwani-10/DSA-Problems/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/ashwani-10/DSA-Problems/tree/master/0525-contiguous-array) |
@@ -53,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0287-find-the-duplicate-number](https://github.com/ashwani-10/DSA-Problems/tree/master/0287-find-the-duplicate-number) |
 | [0541-reverse-string-ii](https://github.com/ashwani-10/DSA-Problems/tree/master/0541-reverse-string-ii) |
 ## Dynamic Programming
 |  |
@@ -187,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0287-find-the-duplicate-number](https://github.com/ashwani-10/DSA-Problems/tree/master/0287-find-the-duplicate-number) |
 | [0645-set-mismatch](https://github.com/ashwani-10/DSA-Problems/tree/master/0645-set-mismatch) |
 | [2509-minimize-xor](https://github.com/ashwani-10/DSA-Problems/tree/master/2509-minimize-xor) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/ashwani-10/DSA-Problems/tree/master/2533-bitwise-xor-of-all-pairings) |
@@ -203,4 +206,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0570-managers-with-at-least-5-direct-reports](https://github.com/ashwani-10/DSA-Problems/tree/master/0570-managers-with-at-least-5-direct-reports) |
+## Binary Search
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/ashwani-10/DSA-Problems/tree/master/0287-find-the-duplicate-number) |
 <!---LeetCode Topics End-->
