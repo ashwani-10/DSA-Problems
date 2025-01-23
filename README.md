@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0952-word-subsets](https://github.com/ashwani-10/DSA-Problems/tree/master/0952-word-subsets) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/ashwani-10/DSA-Problems/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1025-minimum-cost-for-tickets](https://github.com/ashwani-10/DSA-Problems/tree/master/1025-minimum-cost-for-tickets) |
+| [1396-count-servers-that-communicate](https://github.com/ashwani-10/DSA-Problems/tree/master/1396-count-servers-that-communicate) |
 | [1524-string-matching-in-an-array](https://github.com/ashwani-10/DSA-Problems/tree/master/1524-string-matching-in-an-array) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/ashwani-10/DSA-Problems/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1651-shuffle-string](https://github.com/ashwani-10/DSA-Problems/tree/master/1651-shuffle-string) |
@@ -130,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/ashwani-10/DSA-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/ashwani-10/DSA-Problems/tree/master/0621-task-scheduler) |
+| [1396-count-servers-that-communicate](https://github.com/ashwani-10/DSA-Problems/tree/master/1396-count-servers-that-communicate) |
 | [1502-construct-k-palindrome-strings](https://github.com/ashwani-10/DSA-Problems/tree/master/1502-construct-k-palindrome-strings) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/ashwani-10/DSA-Problems/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 ## Divide and Conquer
@@ -186,11 +188,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0079-word-search](https://github.com/ashwani-10/DSA-Problems/tree/master/0079-word-search) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ashwani-10/DSA-Problems/tree/master/0124-binary-tree-maximum-path-sum) |
+| [1396-count-servers-that-communicate](https://github.com/ashwani-10/DSA-Problems/tree/master/1396-count-servers-that-communicate) |
 ## Matrix
 |  |
 | ------- |
 | [0079-word-search](https://github.com/ashwani-10/DSA-Problems/tree/master/0079-word-search) |
 | [0542-01-matrix](https://github.com/ashwani-10/DSA-Problems/tree/master/0542-01-matrix) |
+| [1396-count-servers-that-communicate](https://github.com/ashwani-10/DSA-Problems/tree/master/1396-count-servers-that-communicate) |
 | [1876-map-of-highest-peak](https://github.com/ashwani-10/DSA-Problems/tree/master/1876-map-of-highest-peak) |
 | [2145-grid-game](https://github.com/ashwani-10/DSA-Problems/tree/master/2145-grid-game) |
 | [2606-difference-between-ones-and-zeros-in-row-and-column](https://github.com/ashwani-10/DSA-Problems/tree/master/2606-difference-between-ones-and-zeros-in-row-and-column) |
@@ -200,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0322-coin-change](https://github.com/ashwani-10/DSA-Problems/tree/master/0322-coin-change) |
 | [0542-01-matrix](https://github.com/ashwani-10/DSA-Problems/tree/master/0542-01-matrix) |
+| [1396-count-servers-that-communicate](https://github.com/ashwani-10/DSA-Problems/tree/master/1396-count-servers-that-communicate) |
 | [1876-map-of-highest-peak](https://github.com/ashwani-10/DSA-Problems/tree/master/1876-map-of-highest-peak) |
 ## Bit Manipulation
 |  |
@@ -248,4 +253,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ashwani-10/DSA-Problems/tree/master/0124-binary-tree-maximum-path-sum) |
+## Union Find
+|  |
+| ------- |
+| [1396-count-servers-that-communicate](https://github.com/ashwani-10/DSA-Problems/tree/master/1396-count-servers-that-communicate) |
 <!---LeetCode Topics End-->
