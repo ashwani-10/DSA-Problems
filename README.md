@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0053-maximum-subarray](https://github.com/ashwani-10/DSA-Problems/tree/master/0053-maximum-subarray) |
 | [0079-word-search](https://github.com/ashwani-10/DSA-Problems/tree/master/0079-word-search) |
+| [0162-find-peak-element](https://github.com/ashwani-10/DSA-Problems/tree/master/0162-find-peak-element) |
 | [0287-find-the-duplicate-number](https://github.com/ashwani-10/DSA-Problems/tree/master/0287-find-the-duplicate-number) |
 | [0322-coin-change](https://github.com/ashwani-10/DSA-Problems/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/ashwani-10/DSA-Problems/tree/master/0347-top-k-frequent-elements) |
@@ -220,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0162-find-peak-element](https://github.com/ashwani-10/DSA-Problems/tree/master/0162-find-peak-element) |
 | [0287-find-the-duplicate-number](https://github.com/ashwani-10/DSA-Problems/tree/master/0287-find-the-duplicate-number) |
 | [0713-subarray-product-less-than-k](https://github.com/ashwani-10/DSA-Problems/tree/master/0713-subarray-product-less-than-k) |
 ## Bucket Sort
