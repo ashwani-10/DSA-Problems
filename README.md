@@ -142,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/ashwani-10/DSA-Problems/tree/master/0050-powx-n) |
 | [0523-continuous-subarray-sum](https://github.com/ashwani-10/DSA-Problems/tree/master/0523-continuous-subarray-sum) |
 ## Heap (Priority Queue)
 |  |
@@ -257,4 +258,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1396-count-servers-that-communicate](https://github.com/ashwani-10/DSA-Problems/tree/master/1396-count-servers-that-communicate) |
+## Recursion
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/ashwani-10/DSA-Problems/tree/master/0050-powx-n) |
 <!---LeetCode Topics End-->
