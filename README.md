@@ -192,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/ashwani-10/DSA-Problems/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0820-find-eventual-safe-states](https://github.com/ashwani-10/DSA-Problems/tree/master/0820-find-eventual-safe-states) |
 | [1396-count-servers-that-communicate](https://github.com/ashwani-10/DSA-Problems/tree/master/1396-count-servers-that-communicate) |
+| [1558-course-schedule-iv](https://github.com/ashwani-10/DSA-Problems/tree/master/1558-course-schedule-iv) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/ashwani-10/DSA-Problems/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 ## Matrix
 |  |
@@ -211,6 +212,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/ashwani-10/DSA-Problems/tree/master/0542-01-matrix) |
 | [0820-find-eventual-safe-states](https://github.com/ashwani-10/DSA-Problems/tree/master/0820-find-eventual-safe-states) |
 | [1396-count-servers-that-communicate](https://github.com/ashwani-10/DSA-Problems/tree/master/1396-count-servers-that-communicate) |
+| [1558-course-schedule-iv](https://github.com/ashwani-10/DSA-Problems/tree/master/1558-course-schedule-iv) |
 | [1876-map-of-highest-peak](https://github.com/ashwani-10/DSA-Problems/tree/master/1876-map-of-highest-peak) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/ashwani-10/DSA-Problems/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 ## Bit Manipulation
@@ -273,8 +275,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0820-find-eventual-safe-states](https://github.com/ashwani-10/DSA-Problems/tree/master/0820-find-eventual-safe-states) |
+| [1558-course-schedule-iv](https://github.com/ashwani-10/DSA-Problems/tree/master/1558-course-schedule-iv) |
 ## Topological Sort
 |  |
 | ------- |
 | [0820-find-eventual-safe-states](https://github.com/ashwani-10/DSA-Problems/tree/master/0820-find-eventual-safe-states) |
+| [1558-course-schedule-iv](https://github.com/ashwani-10/DSA-Problems/tree/master/1558-course-schedule-iv) |
 <!---LeetCode Topics End-->
