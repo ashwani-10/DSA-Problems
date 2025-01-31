@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0645-set-mismatch](https://github.com/ashwani-10/DSA-Problems/tree/master/0645-set-mismatch) |
 | [0665-non-decreasing-array](https://github.com/ashwani-10/DSA-Problems/tree/master/0665-non-decreasing-array) |
 | [0713-subarray-product-less-than-k](https://github.com/ashwani-10/DSA-Problems/tree/master/0713-subarray-product-less-than-k) |
+| [0854-making-a-large-island](https://github.com/ashwani-10/DSA-Problems/tree/master/0854-making-a-large-island) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/ashwani-10/DSA-Problems/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0952-word-subsets](https://github.com/ashwani-10/DSA-Problems/tree/master/0952-word-subsets) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/ashwani-10/DSA-Problems/tree/master/1016-subarray-sums-divisible-by-k) |
@@ -196,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/ashwani-10/DSA-Problems/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0684-redundant-connection](https://github.com/ashwani-10/DSA-Problems/tree/master/0684-redundant-connection) |
 | [0820-find-eventual-safe-states](https://github.com/ashwani-10/DSA-Problems/tree/master/0820-find-eventual-safe-states) |
+| [0854-making-a-large-island](https://github.com/ashwani-10/DSA-Problems/tree/master/0854-making-a-large-island) |
 | [1396-count-servers-that-communicate](https://github.com/ashwani-10/DSA-Problems/tree/master/1396-count-servers-that-communicate) |
 | [1558-course-schedule-iv](https://github.com/ashwani-10/DSA-Problems/tree/master/1558-course-schedule-iv) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/ashwani-10/DSA-Problems/tree/master/2764-maximum-number-of-fish-in-a-grid) |
@@ -204,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0079-word-search](https://github.com/ashwani-10/DSA-Problems/tree/master/0079-word-search) |
 | [0542-01-matrix](https://github.com/ashwani-10/DSA-Problems/tree/master/0542-01-matrix) |
+| [0854-making-a-large-island](https://github.com/ashwani-10/DSA-Problems/tree/master/0854-making-a-large-island) |
 | [1396-count-servers-that-communicate](https://github.com/ashwani-10/DSA-Problems/tree/master/1396-count-servers-that-communicate) |
 | [1876-map-of-highest-peak](https://github.com/ashwani-10/DSA-Problems/tree/master/1876-map-of-highest-peak) |
 | [2145-grid-game](https://github.com/ashwani-10/DSA-Problems/tree/master/2145-grid-game) |
@@ -217,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/ashwani-10/DSA-Problems/tree/master/0542-01-matrix) |
 | [0684-redundant-connection](https://github.com/ashwani-10/DSA-Problems/tree/master/0684-redundant-connection) |
 | [0820-find-eventual-safe-states](https://github.com/ashwani-10/DSA-Problems/tree/master/0820-find-eventual-safe-states) |
+| [0854-making-a-large-island](https://github.com/ashwani-10/DSA-Problems/tree/master/0854-making-a-large-island) |
 | [1396-count-servers-that-communicate](https://github.com/ashwani-10/DSA-Problems/tree/master/1396-count-servers-that-communicate) |
 | [1558-course-schedule-iv](https://github.com/ashwani-10/DSA-Problems/tree/master/1558-course-schedule-iv) |
 | [1876-map-of-highest-peak](https://github.com/ashwani-10/DSA-Problems/tree/master/1876-map-of-highest-peak) |
@@ -273,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0684-redundant-connection](https://github.com/ashwani-10/DSA-Problems/tree/master/0684-redundant-connection) |
+| [0854-making-a-large-island](https://github.com/ashwani-10/DSA-Problems/tree/master/0854-making-a-large-island) |
 | [1396-count-servers-that-communicate](https://github.com/ashwani-10/DSA-Problems/tree/master/1396-count-servers-that-communicate) |
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/ashwani-10/DSA-Problems/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/ashwani-10/DSA-Problems/tree/master/2764-maximum-number-of-fish-in-a-grid) |
