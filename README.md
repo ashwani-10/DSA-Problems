@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1651-shuffle-string](https://github.com/ashwani-10/DSA-Problems/tree/master/1651-shuffle-string) |
 | [1876-map-of-highest-peak](https://github.com/ashwani-10/DSA-Problems/tree/master/1876-map-of-highest-peak) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/ashwani-10/DSA-Problems/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
+| [1927-maximum-ascending-subarray-sum](https://github.com/ashwani-10/DSA-Problems/tree/master/1927-maximum-ascending-subarray-sum) |
 | [2145-grid-game](https://github.com/ashwani-10/DSA-Problems/tree/master/2145-grid-game) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/ashwani-10/DSA-Problems/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2341-count-prefixes-of-a-given-string](https://github.com/ashwani-10/DSA-Problems/tree/master/2341-count-prefixes-of-a-given-string) |
