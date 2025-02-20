@@ -1,47 +1,50 @@
 class Solution {
-    public boolean checkInclusion(String t, String s) {
-        int n = t.length();
+    public boolean checkInclusion(String s1, String s2) {
+        int n = s1.length();
 
-        if(n > s.length())
-        return false;
-        
-        HashMap<Character,Integer> map = new HashMap();
-        for(int i=0;i<t.length();i++){
-            char c = t.charAt(i);
-            map.put(c,map.getOrDefault(c,0)+1);
+        if(n > s2.length()){
+            return false;
         }
 
-        int reqChar = t.length();
+        Map<Character,Integer> map = new HashMap<>();
+        for(int i=0;i<n;i++){
+            char ch = s1.charAt(i);
+            map.put(ch,map.getOrDefault(ch,0)+1);
+        }
+        //a-1,b-1
+
+        int req_char = n;
         int i=0,j=0,start_i=0;
         int minWindow = Integer.MAX_VALUE;
 
-        while(j<s.length()){
-            char ch = s.charAt(j);
+        while(j<s2.length()){
+            char ch = s2.charAt(j);
 
-            if(map.containsKey(ch) && map.get(ch)>0)
-            reqChar--;
+            if(map.containsKey(ch) && map.get(ch) > 0){
+                req_char--;
+            }
 
             map.put(ch,map.getOrDefault(ch,0)-1);
 
-            while(reqChar == 0){
-                int currWindow = j-i+1;
+            while(req_char == 0){
+                int curWindow = j-i+1;
 
-                if(minWindow > currWindow){
-                    minWindow = currWindow;
+                if(minWindow > curWindow){
+                    minWindow = curWindow;
                     start_i = i;
                 }
 
-                char startChar = s.charAt(i);
-                map.put(startChar,map.getOrDefault(startChar,0)+1);
+                char startCh = s2.charAt(i);
+                map.put(startCh,map.getOrDefault(startCh,0)+1);
 
-                if(map.containsKey(startChar) && map.get(startChar) > 0)
-                reqChar++;
-
+                if(map.containsKey(startCh) && map.get(startCh) > 0){
+                    req_char++;
+                }
                 i++;
             }
+            
             j++;
         }
-
         return minWindow == n ? true : false;
     }
 }
