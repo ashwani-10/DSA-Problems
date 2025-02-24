@@ -54,9 +54,8 @@ class Solution {
             adj.computeIfAbsent(v,k-> new ArrayList<>()).add(u);
         }
 
-        int time = 0;
         boolean[] vis = new boolean[n];
-        bobDfs(bob,time,vis);
+        bobDfs(bob,0,vis);
 
         int income = 0;
         Arrays.fill(vis,false);
