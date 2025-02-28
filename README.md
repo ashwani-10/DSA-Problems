@@ -111,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/ashwani-10/DSA-Problems/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/ashwani-10/DSA-Problems/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
+| [2573-remove-nodes-from-linked-list](https://github.com/ashwani-10/DSA-Problems/tree/master/2573-remove-nodes-from-linked-list) |
 ## Simulation
 |  |
 | ------- |
@@ -204,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/ashwani-10/DSA-Problems/tree/master/0146-lru-cache) |
 | [0237-delete-node-in-a-linked-list](https://github.com/ashwani-10/DSA-Problems/tree/master/0237-delete-node-in-a-linked-list) |
+| [2573-remove-nodes-from-linked-list](https://github.com/ashwani-10/DSA-Problems/tree/master/2573-remove-nodes-from-linked-list) |
 ## Design
 |  |
 | ------- |
@@ -325,6 +327,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/ashwani-10/DSA-Problems/tree/master/0050-powx-n) |
+| [2573-remove-nodes-from-linked-list](https://github.com/ashwani-10/DSA-Problems/tree/master/2573-remove-nodes-from-linked-list) |
 ## Graph
 |  |
 | ------- |
@@ -338,4 +341,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0820-find-eventual-safe-states](https://github.com/ashwani-10/DSA-Problems/tree/master/0820-find-eventual-safe-states) |
 | [1558-course-schedule-iv](https://github.com/ashwani-10/DSA-Problems/tree/master/1558-course-schedule-iv) |
+## Monotonic Stack
+|  |
+| ------- |
+| [2573-remove-nodes-from-linked-list](https://github.com/ashwani-10/DSA-Problems/tree/master/2573-remove-nodes-from-linked-list) |
 <!---LeetCode Topics End-->
