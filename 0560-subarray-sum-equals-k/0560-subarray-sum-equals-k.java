@@ -1,15 +1,12 @@
 class Solution {
     public int subarraySum(int[] arr, int tar) {
-        HashMap<Integer,Integer>hm = new HashMap<>();
-        int sum = 0;
         int ans = 0;
-        hm.put(0,1);
-        for(int i=0;i<arr.length;i++){
-            sum = sum + arr[i];
-            if(hm.containsKey(sum-tar)){
-                ans = ans + hm.get(sum-tar);
+        for(int i = 0; i < arr.length; i++) {
+            int sum = 0; // Reset sum for new starting index
+            for(int j = i; j < arr.length; j++) {
+                sum += arr[j]; // Keep adding elements
+                if(sum == tar) ans++; // Found a valid subarray
             }
-            hm.put(sum,hm.getOrDefault(sum,0)+1);
         }
         return ans;
     }
