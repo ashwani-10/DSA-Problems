@@ -1,37 +1,48 @@
-class pair{
-    int r;
-    int c;
-    pair(int r,int c){
-        this.r=r;
-        this.c=c;
-    }
-}
-
 class Solution {
     public void setZeroes(int[][] mat) {
         int n = mat.length;
         int m = mat[0].length;
 
-        LinkedList<pair> q = new LinkedList<>();
+        boolean frzero = false,fczero = false;
 
         for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
+            if(mat[i][0] == 0){
+                fczero = true;
+            }
+        }
+
+        
+        for(int i=0;i<m;i++){
+            if(mat[0][i] == 0){
+                frzero = true;
+            }
+        }
+
+        for(int i=1;i<n;i++){
+            for(int j=1;j<m;j++){
                 if(mat[i][j] == 0){
-                    q.addLast(new pair(i,j));
+                    mat[i][0]=0;
+                    mat[0][j]=0;
                 }
             }
         }
 
-        while(q.size() > 0){
-            pair p = q.removeFirst();
-            int r = p.r;
-            int c = p.c;
-
-            Arrays.fill(mat[r],0);
-
-            for(int i=0;i<n;i++){
-                mat[i][c] = 0;
+        for(int i=1;i<n;i++){
+            for(int j=1;j<m;j++){
+                if(mat[i][0] ==0 || mat[0][j] == 0){
+                    mat[i][j] = 0;
+                }
             }
+        }
+
+        if(fczero){
+            for(int i=0;i<n;i++){
+                mat[i][0] = 0;
+            }
+        }
+
+        if(frzero){
+            Arrays.fill(mat[0],0);
         }
     }
 }
