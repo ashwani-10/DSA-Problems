@@ -1,11 +1,9 @@
 class Solution {
     public List<Integer> getRow(int rowIndex) {
-        List<List<Integer>> res = new ArrayList<>();
         List<Integer> prev = new ArrayList<>();
         prev.add(1);
 
-        res.add(prev);
-        if(rowIndex==0) return res.get(0);
+        if(rowIndex==0) return prev;
 
         for(int i=2;i<=rowIndex+1;i++){
             List<Integer> curr = new ArrayList<>();
@@ -15,9 +13,8 @@ class Solution {
                 curr.add(prev.get(j-1)+prev.get(j));
             }
             curr.add(1);
-            res.add(curr);
             prev = curr;
         }
-        return res.get(rowIndex);
+        return prev;
     }
 }
