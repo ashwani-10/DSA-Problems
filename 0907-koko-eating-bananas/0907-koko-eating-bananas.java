@@ -1,11 +1,12 @@
 class Solution {
     public boolean isPossible(int mid,int[] piles,int h){
+        int totalH = 0;
         for(int b : piles){
             // 3,6,7,11
-            h -= Math.ceil((double) b/mid);
+            totalH += Math.ceil((double) b/mid);
         }
 
-        return h>=0;
+        return totalH <= h;
     }
     public int minEatingSpeed(int[] piles, int h) {
         int n = piles.length;
