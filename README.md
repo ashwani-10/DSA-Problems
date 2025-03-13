@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/ashwani-10/DSA-Problems/tree/master/0004-median-of-two-sorted-arrays) |
 | [0031-next-permutation](https://github.com/ashwani-10/DSA-Problems/tree/master/0031-next-permutation) |
+| [0033-search-in-rotated-sorted-array](https://github.com/ashwani-10/DSA-Problems/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/ashwani-10/DSA-Problems/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/ashwani-10/DSA-Problems/tree/master/0046-permutations) |
 | [0053-maximum-subarray](https://github.com/ashwani-10/DSA-Problems/tree/master/0053-maximum-subarray) |
@@ -300,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/ashwani-10/DSA-Problems/tree/master/0004-median-of-two-sorted-arrays) |
+| [0033-search-in-rotated-sorted-array](https://github.com/ashwani-10/DSA-Problems/tree/master/0033-search-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/ashwani-10/DSA-Problems/tree/master/0162-find-peak-element) |
 | [0287-find-the-duplicate-number](https://github.com/ashwani-10/DSA-Problems/tree/master/0287-find-the-duplicate-number) |
 | [0713-subarray-product-less-than-k](https://github.com/ashwani-10/DSA-Problems/tree/master/0713-subarray-product-less-than-k) |
