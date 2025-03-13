@@ -29,11 +29,12 @@ class Solution {
         int n = nums.length;
         int pivot = findPivot(nums,n);
 
-        int idx = binarySearch(0,pivot-1,nums,target);
+        int idxL = binarySearch(0,pivot-1,nums,target);
+        int idxR = binarySearch(pivot,n-1,nums,target);
 
-        if(idx != -1)
-        return idx;
-
-        return binarySearch(pivot,n-1,nums,target);
+        if(idxL != -1)
+        return idxL;
+        
+        return idxR;
     }
 }
