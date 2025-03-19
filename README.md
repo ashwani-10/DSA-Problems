@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/ashwani-10/DSA-Problems/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0079-word-search](https://github.com/ashwani-10/DSA-Problems/tree/master/0079-word-search) |
 | [0541-reverse-string-ii](https://github.com/ashwani-10/DSA-Problems/tree/master/0541-reverse-string-ii) |
 | [0567-permutation-in-string](https://github.com/ashwani-10/DSA-Problems/tree/master/0567-permutation-in-string) |
@@ -131,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/ashwani-10/DSA-Problems/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0073-set-matrix-zeroes](https://github.com/ashwani-10/DSA-Problems/tree/master/0073-set-matrix-zeroes) |
 | [0146-lru-cache](https://github.com/ashwani-10/DSA-Problems/tree/master/0146-lru-cache) |
 | [0347-top-k-frequent-elements](https://github.com/ashwani-10/DSA-Problems/tree/master/0347-top-k-frequent-elements) |
@@ -327,6 +329,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/ashwani-10/DSA-Problems/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0567-permutation-in-string](https://github.com/ashwani-10/DSA-Problems/tree/master/0567-permutation-in-string) |
 | [0713-subarray-product-less-than-k](https://github.com/ashwani-10/DSA-Problems/tree/master/0713-subarray-product-less-than-k) |
 ## Tree
