@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/ashwani-10/DSA-Problems/tree/master/0004-median-of-two-sorted-arrays) |
+| [0015-3sum](https://github.com/ashwani-10/DSA-Problems/tree/master/0015-3sum) |
 | [0031-next-permutation](https://github.com/ashwani-10/DSA-Problems/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/ashwani-10/DSA-Problems/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/ashwani-10/DSA-Problems/tree/master/0039-combination-sum) |
@@ -84,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/ashwani-10/DSA-Problems/tree/master/0015-3sum) |
 | [0031-next-permutation](https://github.com/ashwani-10/DSA-Problems/tree/master/0031-next-permutation) |
 | [0287-find-the-duplicate-number](https://github.com/ashwani-10/DSA-Problems/tree/master/0287-find-the-duplicate-number) |
 | [0541-reverse-string-ii](https://github.com/ashwani-10/DSA-Problems/tree/master/0541-reverse-string-ii) |
@@ -164,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/ashwani-10/DSA-Problems/tree/master/0015-3sum) |
 | [0347-top-k-frequent-elements](https://github.com/ashwani-10/DSA-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0561-array-partition](https://github.com/ashwani-10/DSA-Problems/tree/master/0561-array-partition) |
 | [0621-task-scheduler](https://github.com/ashwani-10/DSA-Problems/tree/master/0621-task-scheduler) |
