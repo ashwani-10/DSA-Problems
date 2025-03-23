@@ -5,7 +5,6 @@ class Solution {
         while(i<j){
             int sum = nums[i]+nums[j];
             if(sum == target){
-                while(i<j && nums[i] == nums[i+1]) i++;
                 while(i<j && nums[j] == nums[j-1]) j--;
                 res.add(new ArrayList<>(Arrays.asList(nums[i],nums[j],-target)));
                 i++;
