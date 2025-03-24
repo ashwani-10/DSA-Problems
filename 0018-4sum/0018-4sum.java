@@ -8,7 +8,6 @@ class Solution {
             i++;
             j--;
             while (i < j && nums[i] == nums[i - 1]) i++;
-            while (i < j && nums[j] == nums[j + 1]) j--;
             
             }else if(sum > target){
                 j--;
