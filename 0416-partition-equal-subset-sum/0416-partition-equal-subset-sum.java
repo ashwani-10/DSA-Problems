@@ -10,7 +10,7 @@ class Solution {
             return dp[n][sum] = helper(n-1,sum-nums[n-1],nums) || helper(n-1,sum,nums);
         }
 
-        return helper(n-1,sum,nums);
+        return dp[n][sum] = helper(n-1,sum,nums);
     }
 
     public boolean canPartition(int[] nums) {
