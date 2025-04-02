@@ -305,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/ashwani-10/DSA-Problems/tree/master/0287-find-the-duplicate-number) |
+| [0461-hamming-distance](https://github.com/ashwani-10/DSA-Problems/tree/master/0461-hamming-distance) |
 | [0645-set-mismatch](https://github.com/ashwani-10/DSA-Problems/tree/master/0645-set-mismatch) |
 | [2509-minimize-xor](https://github.com/ashwani-10/DSA-Problems/tree/master/2509-minimize-xor) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/ashwani-10/DSA-Problems/tree/master/2533-bitwise-xor-of-all-pairings) |
