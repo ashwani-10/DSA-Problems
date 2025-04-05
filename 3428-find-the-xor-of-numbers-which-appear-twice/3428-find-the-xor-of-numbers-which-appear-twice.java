@@ -1,14 +1,14 @@
 class Solution {
     public int duplicateNumbersXOR(int[] nums) {
         int n = nums.length;
-        Set<Integer> set = new HashSet<>();
         int res = 0;
 
-        for(int num : nums){
-            if(set.contains(num)){
-                res ^= num;
+        for(int i=0;i<n-1;i++){
+            for(int j=i+1;j<n;j++){
+                if(nums[i]==nums[j]){
+                    res ^= nums[i];
+                }
             }
-            set.add(num);
         }
         return res;
     }
