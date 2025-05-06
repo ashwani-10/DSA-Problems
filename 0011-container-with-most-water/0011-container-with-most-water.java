@@ -4,13 +4,10 @@ class Solution {
 
         int i=0;
         int j=n-1;
-        int maxArea = Integer.MIN_VALUE;
-        System.out.println(n);
-        System.out.println(j);
+        int maxArea = 0;
 
         while(i<j){
             int width = j-i;
-            System.out.println(width);
             int height = Math.min(heights[i],heights[j]);
 
             int area = height*width;
