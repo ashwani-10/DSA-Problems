@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/ashwani-10/DSA-Problems/tree/master/0125-valid-palindrome) |
 | [0344-reverse-string](https://github.com/ashwani-10/DSA-Problems/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/ashwani-10/DSA-Problems/tree/master/0345-reverse-vowels-of-a-string) |
+| [0392-is-subsequence](https://github.com/ashwani-10/DSA-Problems/tree/master/0392-is-subsequence) |
 | [0541-reverse-string-ii](https://github.com/ashwani-10/DSA-Problems/tree/master/0541-reverse-string-ii) |
 | [0567-permutation-in-string](https://github.com/ashwani-10/DSA-Problems/tree/master/0567-permutation-in-string) |
 | [0583-delete-operation-for-two-strings](https://github.com/ashwani-10/DSA-Problems/tree/master/0583-delete-operation-for-two-strings) |
@@ -109,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/ashwani-10/DSA-Problems/tree/master/0287-find-the-duplicate-number) |
 | [0344-reverse-string](https://github.com/ashwani-10/DSA-Problems/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/ashwani-10/DSA-Problems/tree/master/0345-reverse-vowels-of-a-string) |
+| [0392-is-subsequence](https://github.com/ashwani-10/DSA-Problems/tree/master/0392-is-subsequence) |
 | [0541-reverse-string-ii](https://github.com/ashwani-10/DSA-Problems/tree/master/0541-reverse-string-ii) |
 | [0567-permutation-in-string](https://github.com/ashwani-10/DSA-Problems/tree/master/0567-permutation-in-string) |
 ## Dynamic Programming
@@ -125,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/ashwani-10/DSA-Problems/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/ashwani-10/DSA-Problems/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/ashwani-10/DSA-Problems/tree/master/0322-coin-change) |
+| [0392-is-subsequence](https://github.com/ashwani-10/DSA-Problems/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/ashwani-10/DSA-Problems/tree/master/0416-partition-equal-subset-sum) |
 | [0518-coin-change-ii](https://github.com/ashwani-10/DSA-Problems/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/ashwani-10/DSA-Problems/tree/master/0542-01-matrix) |
