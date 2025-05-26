@@ -250,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0050-powx-n](https://github.com/ashwani-10/DSA-Problems/tree/master/0050-powx-n) |
 | [0070-climbing-stairs](https://github.com/ashwani-10/DSA-Problems/tree/master/0070-climbing-stairs) |
+| [0342-power-of-four](https://github.com/ashwani-10/DSA-Problems/tree/master/0342-power-of-four) |
 | [0477-total-hamming-distance](https://github.com/ashwani-10/DSA-Problems/tree/master/0477-total-hamming-distance) |
 | [0523-continuous-subarray-sum](https://github.com/ashwani-10/DSA-Problems/tree/master/0523-continuous-subarray-sum) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/ashwani-10/DSA-Problems/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
@@ -351,6 +352,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/ashwani-10/DSA-Problems/tree/master/0136-single-number) |
 | [0191-number-of-1-bits](https://github.com/ashwani-10/DSA-Problems/tree/master/0191-number-of-1-bits) |
 | [0287-find-the-duplicate-number](https://github.com/ashwani-10/DSA-Problems/tree/master/0287-find-the-duplicate-number) |
+| [0342-power-of-four](https://github.com/ashwani-10/DSA-Problems/tree/master/0342-power-of-four) |
 | [0461-hamming-distance](https://github.com/ashwani-10/DSA-Problems/tree/master/0461-hamming-distance) |
 | [0477-total-hamming-distance](https://github.com/ashwani-10/DSA-Problems/tree/master/0477-total-hamming-distance) |
 | [0645-set-mismatch](https://github.com/ashwani-10/DSA-Problems/tree/master/0645-set-mismatch) |
@@ -432,6 +434,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0050-powx-n](https://github.com/ashwani-10/DSA-Problems/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/ashwani-10/DSA-Problems/tree/master/0206-reverse-linked-list) |
+| [0342-power-of-four](https://github.com/ashwani-10/DSA-Problems/tree/master/0342-power-of-four) |
 | [2573-remove-nodes-from-linked-list](https://github.com/ashwani-10/DSA-Problems/tree/master/2573-remove-nodes-from-linked-list) |
 ## Graph
 |  |
