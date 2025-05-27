@@ -98,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1502-construct-k-palindrome-strings](https://github.com/ashwani-10/DSA-Problems/tree/master/1502-construct-k-palindrome-strings) |
 | [1524-string-matching-in-an-array](https://github.com/ashwani-10/DSA-Problems/tree/master/1524-string-matching-in-an-array) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/ashwani-10/DSA-Problems/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [1542-consecutive-characters](https://github.com/ashwani-10/DSA-Problems/tree/master/1542-consecutive-characters) |
 | [1651-shuffle-string](https://github.com/ashwani-10/DSA-Problems/tree/master/1651-shuffle-string) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/ashwani-10/DSA-Problems/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/ashwani-10/DSA-Problems/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
