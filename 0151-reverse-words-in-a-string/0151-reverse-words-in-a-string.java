@@ -11,6 +11,14 @@ class Solution {
             i++;
             j--;
         }
-        return String.join(" ",words);
+        String res = "";
+
+        for(int I=0;I<words.length;I++){
+            if(I == words.length-1){
+                res += words[I];
+            }else
+            res += words[I]+" ";
+        }
+        return res;
     }
 }
