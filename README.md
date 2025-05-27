@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/ashwani-10/DSA-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0416-partition-equal-subset-sum](https://github.com/ashwani-10/DSA-Problems/tree/master/0416-partition-equal-subset-sum) |
 | [0477-total-hamming-distance](https://github.com/ashwani-10/DSA-Problems/tree/master/0477-total-hamming-distance) |
+| [0485-max-consecutive-ones](https://github.com/ashwani-10/DSA-Problems/tree/master/0485-max-consecutive-ones) |
 | [0518-coin-change-ii](https://github.com/ashwani-10/DSA-Problems/tree/master/0518-coin-change-ii) |
 | [0523-continuous-subarray-sum](https://github.com/ashwani-10/DSA-Problems/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/ashwani-10/DSA-Problems/tree/master/0525-contiguous-array) |
