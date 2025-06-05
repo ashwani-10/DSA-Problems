@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/ashwani-10/DSA-Problems/tree/master/0907-koko-eating-bananas) |
 | [0952-word-subsets](https://github.com/ashwani-10/DSA-Problems/tree/master/0952-word-subsets) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/ashwani-10/DSA-Problems/tree/master/1016-subarray-sums-divisible-by-k) |
+| [1019-squares-of-a-sorted-array](https://github.com/ashwani-10/DSA-Problems/tree/master/1019-squares-of-a-sorted-array) |
 | [1025-minimum-cost-for-tickets](https://github.com/ashwani-10/DSA-Problems/tree/master/1025-minimum-cost-for-tickets) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/ashwani-10/DSA-Problems/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1364-tuple-with-same-product](https://github.com/ashwani-10/DSA-Problems/tree/master/1364-tuple-with-same-product) |
@@ -136,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/ashwani-10/DSA-Problems/tree/master/0567-permutation-in-string) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ashwani-10/DSA-Problems/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0908-middle-of-the-linked-list](https://github.com/ashwani-10/DSA-Problems/tree/master/0908-middle-of-the-linked-list) |
+| [1019-squares-of-a-sorted-array](https://github.com/ashwani-10/DSA-Problems/tree/master/1019-squares-of-a-sorted-array) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -242,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ashwani-10/DSA-Problems/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0621-task-scheduler](https://github.com/ashwani-10/DSA-Problems/tree/master/0621-task-scheduler) |
 | [0645-set-mismatch](https://github.com/ashwani-10/DSA-Problems/tree/master/0645-set-mismatch) |
+| [1019-squares-of-a-sorted-array](https://github.com/ashwani-10/DSA-Problems/tree/master/1019-squares-of-a-sorted-array) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ashwani-10/DSA-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/ashwani-10/DSA-Problems/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 ## Counting
