@@ -1,26 +1,28 @@
 class Solution {
-    int [][] dp;
-    public int helper(int[] nums,int idx,int pi){
-        if(idx == nums.length) return 0;
-
-        if(dp[idx][pi+1] != -1) return dp[idx][pi+1];
-
-        int notTake = helper(nums,idx+1,pi);
-
-        int take = 0;
-        if(pi == -1 || nums[idx] > nums[pi]){
-            take = 1 + helper(nums,idx+1,idx);
-        }
-
-        return dp[idx][pi+1] = Math.max(take,notTake);
-    }
-
+    int dp[];
     public int lengthOfLIS(int[] nums) {
         int n = nums.length;
-        dp = new int[n][n+1];
-        for(int[] row : dp) Arrays.fill(row,-1);
+        dp = new int[n];
+        Arrays.fill(dp,-1);
+        int maxi = 0;
 
-        int res = helper(nums,0,-1);
-        return res;
+        for(int i=0;i<n;i++){
+            int len = maxLenWithIdx(nums,i);
+            maxi = Math.max(maxi,len);
+        }
+        return maxi;
+    }
+    
+    public int maxLenWithIdx(int [] nums,int idx){
+        if(dp[idx] != -1) return dp[idx];
+
+        int max = 0;
+        for(int i = idx-1; i>=0; i--){
+            if(nums[i] < nums[idx]){
+                int len = maxLenWithIdx(nums,i);
+                max = Math.max(max,len);
+            }
+        }
+        return dp[idx] = max + 1;
     }
 }
