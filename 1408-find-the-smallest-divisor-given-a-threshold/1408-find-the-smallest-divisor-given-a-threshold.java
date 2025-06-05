@@ -2,7 +2,7 @@ class Solution {
     boolean isPossible(int[] nums, int threshold,int mid){
         int sum = 0;
         for(int num : nums){
-            sum += (int) Math.ceil((double)num/mid);
+            sum += (num+mid-1)/mid;
         }
 
         return sum <= threshold;
