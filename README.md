@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0952-word-subsets](https://github.com/ashwani-10/DSA-Problems/tree/master/0952-word-subsets) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/ashwani-10/DSA-Problems/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1025-minimum-cost-for-tickets](https://github.com/ashwani-10/DSA-Problems/tree/master/1025-minimum-cost-for-tickets) |
+| [1056-capacity-to-ship-packages-within-d-days](https://github.com/ashwani-10/DSA-Problems/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1364-tuple-with-same-product](https://github.com/ashwani-10/DSA-Problems/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/ashwani-10/DSA-Problems/tree/master/1396-count-servers-that-communicate) |
 | [1524-string-matching-in-an-array](https://github.com/ashwani-10/DSA-Problems/tree/master/1524-string-matching-in-an-array) |
@@ -405,6 +406,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0713-subarray-product-less-than-k](https://github.com/ashwani-10/DSA-Problems/tree/master/0713-subarray-product-less-than-k) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/ashwani-10/DSA-Problems/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0907-koko-eating-bananas](https://github.com/ashwani-10/DSA-Problems/tree/master/0907-koko-eating-bananas) |
+| [1056-capacity-to-ship-packages-within-d-days](https://github.com/ashwani-10/DSA-Problems/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 ## Bucket Sort
 |  |
 | ------- |
