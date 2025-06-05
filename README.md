@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/ashwani-10/DSA-Problems/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1364-tuple-with-same-product](https://github.com/ashwani-10/DSA-Problems/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/ashwani-10/DSA-Problems/tree/master/1396-count-servers-that-communicate) |
+| [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/ashwani-10/DSA-Problems/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1524-string-matching-in-an-array](https://github.com/ashwani-10/DSA-Problems/tree/master/1524-string-matching-in-an-array) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/ashwani-10/DSA-Problems/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/ashwani-10/DSA-Problems/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
@@ -412,6 +413,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0882-peak-index-in-a-mountain-array](https://github.com/ashwani-10/DSA-Problems/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0907-koko-eating-bananas](https://github.com/ashwani-10/DSA-Problems/tree/master/0907-koko-eating-bananas) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/ashwani-10/DSA-Problems/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/ashwani-10/DSA-Problems/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 ## Bucket Sort
 |  |
 | ------- |
