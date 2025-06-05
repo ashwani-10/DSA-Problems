@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/ashwani-10/DSA-Problems/tree/master/0152-maximum-product-subarray) |
 | [0162-find-peak-element](https://github.com/ashwani-10/DSA-Problems/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ashwani-10/DSA-Problems/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0169-majority-element](https://github.com/ashwani-10/DSA-Problems/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/ashwani-10/DSA-Problems/tree/master/0198-house-robber) |
 | [0238-product-of-array-except-self](https://github.com/ashwani-10/DSA-Problems/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/ashwani-10/DSA-Problems/tree/master/0283-move-zeroes) |
@@ -201,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/ashwani-10/DSA-Problems/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/ashwani-10/DSA-Problems/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/ashwani-10/DSA-Problems/tree/master/0146-lru-cache) |
+| [0169-majority-element](https://github.com/ashwani-10/DSA-Problems/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/ashwani-10/DSA-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0523-continuous-subarray-sum](https://github.com/ashwani-10/DSA-Problems/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/ashwani-10/DSA-Problems/tree/master/0525-contiguous-array) |
@@ -239,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/ashwani-10/DSA-Problems/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/ashwani-10/DSA-Problems/tree/master/0018-4sum) |
+| [0169-majority-element](https://github.com/ashwani-10/DSA-Problems/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/ashwani-10/DSA-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0561-array-partition](https://github.com/ashwani-10/DSA-Problems/tree/master/0561-array-partition) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ashwani-10/DSA-Problems/tree/master/0581-shortest-unsorted-continuous-subarray) |
@@ -250,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/ashwani-10/DSA-Problems/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/ashwani-10/DSA-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/ashwani-10/DSA-Problems/tree/master/0621-task-scheduler) |
 | [1364-tuple-with-same-product](https://github.com/ashwani-10/DSA-Problems/tree/master/1364-tuple-with-same-product) |
@@ -262,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/ashwani-10/DSA-Problems/tree/master/0004-median-of-two-sorted-arrays) |
 | [0053-maximum-subarray](https://github.com/ashwani-10/DSA-Problems/tree/master/0053-maximum-subarray) |
+| [0169-majority-element](https://github.com/ashwani-10/DSA-Problems/tree/master/0169-majority-element) |
 | [0191-number-of-1-bits](https://github.com/ashwani-10/DSA-Problems/tree/master/0191-number-of-1-bits) |
 | [0347-top-k-frequent-elements](https://github.com/ashwani-10/DSA-Problems/tree/master/0347-top-k-frequent-elements) |
 ## Math
