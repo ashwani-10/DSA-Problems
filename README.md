@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0561-array-partition](https://github.com/ashwani-10/DSA-Problems/tree/master/0561-array-partition) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ashwani-10/DSA-Problems/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0621-task-scheduler](https://github.com/ashwani-10/DSA-Problems/tree/master/0621-task-scheduler) |
+| [0628-maximum-product-of-three-numbers](https://github.com/ashwani-10/DSA-Problems/tree/master/0628-maximum-product-of-three-numbers) |
 | [0645-set-mismatch](https://github.com/ashwani-10/DSA-Problems/tree/master/0645-set-mismatch) |
 | [0665-non-decreasing-array](https://github.com/ashwani-10/DSA-Problems/tree/master/0665-non-decreasing-array) |
 | [0713-subarray-product-less-than-k](https://github.com/ashwani-10/DSA-Problems/tree/master/0713-subarray-product-less-than-k) |
@@ -246,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0561-array-partition](https://github.com/ashwani-10/DSA-Problems/tree/master/0561-array-partition) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ashwani-10/DSA-Problems/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0621-task-scheduler](https://github.com/ashwani-10/DSA-Problems/tree/master/0621-task-scheduler) |
+| [0628-maximum-product-of-three-numbers](https://github.com/ashwani-10/DSA-Problems/tree/master/0628-maximum-product-of-three-numbers) |
 | [0645-set-mismatch](https://github.com/ashwani-10/DSA-Problems/tree/master/0645-set-mismatch) |
 | [1019-squares-of-a-sorted-array](https://github.com/ashwani-10/DSA-Problems/tree/master/1019-squares-of-a-sorted-array) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ashwani-10/DSA-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -278,6 +280,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0342-power-of-four](https://github.com/ashwani-10/DSA-Problems/tree/master/0342-power-of-four) |
 | [0477-total-hamming-distance](https://github.com/ashwani-10/DSA-Problems/tree/master/0477-total-hamming-distance) |
 | [0523-continuous-subarray-sum](https://github.com/ashwani-10/DSA-Problems/tree/master/0523-continuous-subarray-sum) |
+| [0628-maximum-product-of-three-numbers](https://github.com/ashwani-10/DSA-Problems/tree/master/0628-maximum-product-of-three-numbers) |
 | [1630-count-odd-numbers-in-an-interval-range](https://github.com/ashwani-10/DSA-Problems/tree/master/1630-count-odd-numbers-in-an-interval-range) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/ashwani-10/DSA-Problems/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 ## Heap (Priority Queue)
