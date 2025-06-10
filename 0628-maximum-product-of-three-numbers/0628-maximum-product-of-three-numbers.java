@@ -4,8 +4,6 @@ class Solution {
         int n = nums.length;
         int case1 = nums[0]*nums[1]*nums[nums.length-1];
         int case2 = nums[n-1]*nums[n-2]*nums[n-3];
-        System.out.println(case1);
-        System.out.println(case2);
 
         return Math.max(case1,case2);
 
