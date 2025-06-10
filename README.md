@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0713-subarray-product-less-than-k](https://github.com/ashwani-10/DSA-Problems/tree/master/0713-subarray-product-less-than-k) |
 | [0748-largest-number-at-least-twice-of-others](https://github.com/ashwani-10/DSA-Problems/tree/master/0748-largest-number-at-least-twice-of-others) |
 | [0854-making-a-large-island](https://github.com/ashwani-10/DSA-Problems/tree/master/0854-making-a-large-island) |
+| [0879-maximize-distance-to-closest-person](https://github.com/ashwani-10/DSA-Problems/tree/master/0879-maximize-distance-to-closest-person) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/ashwani-10/DSA-Problems/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0907-koko-eating-bananas](https://github.com/ashwani-10/DSA-Problems/tree/master/0907-koko-eating-bananas) |
 | [0952-word-subsets](https://github.com/ashwani-10/DSA-Problems/tree/master/0952-word-subsets) |
