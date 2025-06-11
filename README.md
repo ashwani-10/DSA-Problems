@@ -189,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/ashwani-10/DSA-Problems/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ashwani-10/DSA-Problems/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/ashwani-10/DSA-Problems/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/ashwani-10/DSA-Problems/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
@@ -316,6 +317,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/ashwani-10/DSA-Problems/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0141-linked-list-cycle](https://github.com/ashwani-10/DSA-Problems/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/ashwani-10/DSA-Problems/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/ashwani-10/DSA-Problems/tree/master/0146-lru-cache) |
@@ -342,6 +344,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0079-word-search](https://github.com/ashwani-10/DSA-Problems/tree/master/0079-word-search) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/ashwani-10/DSA-Problems/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ashwani-10/DSA-Problems/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0543-diameter-of-binary-tree](https://github.com/ashwani-10/DSA-Problems/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/ashwani-10/DSA-Problems/tree/master/0547-number-of-provinces) |
@@ -452,6 +455,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/ashwani-10/DSA-Problems/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ashwani-10/DSA-Problems/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0543-diameter-of-binary-tree](https://github.com/ashwani-10/DSA-Problems/tree/master/0543-diameter-of-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ashwani-10/DSA-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -460,6 +464,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 |  |
 | ------- |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/ashwani-10/DSA-Problems/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ashwani-10/DSA-Problems/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0543-diameter-of-binary-tree](https://github.com/ashwani-10/DSA-Problems/tree/master/0543-diameter-of-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ashwani-10/DSA-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
