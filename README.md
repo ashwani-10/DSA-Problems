@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3429-special-array-i](https://github.com/ashwani-10/DSA-Problems/tree/master/3429-special-array-i) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/ashwani-10/DSA-Problems/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/ashwani-10/DSA-Problems/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
+| [3876-transform-array-to-all-equal-elements](https://github.com/ashwani-10/DSA-Problems/tree/master/3876-transform-array-to-all-equal-elements) |
 ## String
 |  |
 | ------- |
@@ -248,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/ashwani-10/DSA-Problems/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/ashwani-10/DSA-Problems/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2509-minimize-xor](https://github.com/ashwani-10/DSA-Problems/tree/master/2509-minimize-xor) |
+| [3876-transform-array-to-all-equal-elements](https://github.com/ashwani-10/DSA-Problems/tree/master/3876-transform-array-to-all-equal-elements) |
 ## Sorting
 |  |
 | ------- |
