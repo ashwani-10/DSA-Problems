@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3429-special-array-i](https://github.com/ashwani-10/DSA-Problems/tree/master/3429-special-array-i) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/ashwani-10/DSA-Problems/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/ashwani-10/DSA-Problems/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
+| [3864-count-the-number-of-computer-unlocking-permutations](https://github.com/ashwani-10/DSA-Problems/tree/master/3864-count-the-number-of-computer-unlocking-permutations) |
 | [3876-transform-array-to-all-equal-elements](https://github.com/ashwani-10/DSA-Problems/tree/master/3876-transform-array-to-all-equal-elements) |
 ## String
 |  |
@@ -298,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0628-maximum-product-of-three-numbers](https://github.com/ashwani-10/DSA-Problems/tree/master/0628-maximum-product-of-three-numbers) |
 | [1630-count-odd-numbers-in-an-interval-range](https://github.com/ashwani-10/DSA-Problems/tree/master/1630-count-odd-numbers-in-an-interval-range) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/ashwani-10/DSA-Problems/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [3864-count-the-number-of-computer-unlocking-permutations](https://github.com/ashwani-10/DSA-Problems/tree/master/3864-count-the-number-of-computer-unlocking-permutations) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -419,6 +421,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/ashwani-10/DSA-Problems/tree/master/2533-bitwise-xor-of-all-pairings) |
+| [3864-count-the-number-of-computer-unlocking-permutations](https://github.com/ashwani-10/DSA-Problems/tree/master/3864-count-the-number-of-computer-unlocking-permutations) |
 ## Database
 |  |
 | ------- |
@@ -518,4 +521,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/ashwani-10/DSA-Problems/tree/master/0070-climbing-stairs) |
+## Combinatorics
+|  |
+| ------- |
+| [3864-count-the-number-of-computer-unlocking-permutations](https://github.com/ashwani-10/DSA-Problems/tree/master/3864-count-the-number-of-computer-unlocking-permutations) |
 <!---LeetCode Topics End-->
