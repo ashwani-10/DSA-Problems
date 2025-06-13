@@ -8,16 +8,18 @@
  * }
  */
 class Solution {
-    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+    public TreeNode helper(TreeNode root,TreeNode p, TreeNode q){
         if(root == null) return null;
-        if(root == p || root == q) return root;
-        
-        TreeNode Left = lowestCommonAncestor(root.left,p,q);
-        TreeNode Right = lowestCommonAncestor(root.right,p,q);
-        
-        if(Left == null) return Right;
-        if(Right == null) return Left;
-        
-        return root;
+        if(root.val == p.val || root.val == q.val) return root;
+
+        TreeNode left = helper(root.left,p,q);
+        TreeNode right = helper(root.right,p,q);
+
+        if(left != null && right != null) return root;
+
+        return left != null ? left : right;
+    }
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        return helper(root,p,q);
     }
 }
