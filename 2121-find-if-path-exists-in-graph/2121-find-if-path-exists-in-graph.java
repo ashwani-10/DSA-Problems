@@ -1,4 +1,16 @@
 class Solution {
+    public boolean dfs(int node,List<List<Integer>> adj,boolean[] visited,int dest){
+        if(node == dest) return true;
+        visited[node] = true;
+
+        for(int nb : adj.get(node)){
+            if(!visited[nb]){
+                if(dfs(nb,adj,visited,dest)) return true;
+            }
+        }
+
+        return false;
+    }
     public boolean validPath(int n, int[][] edges, int source, int destination) {
         List<List<Integer>> adj = new ArrayList<>();
         for(int i=0;i<n;i++) adj.add(new ArrayList<>());
@@ -10,24 +22,9 @@ class Solution {
             adj.get(u).add(v);
             adj.get(v).add(u);
         }
-        Queue<Integer> q = new LinkedList<>();
-        q.add(source);
 
         boolean[] visited = new boolean[n];
-        visited[source] = true;
-
-        while(!q.isEmpty()){
-            int curr = q.remove();
-
-            if(curr == destination) return true;
-
-            for(int nb : adj.get(curr)){
-                if(!visited[nb]){
-                    visited[nb] = true;
-                    q.add(nb);
-                }
-            }
-        }
-        return false;
+        
+        return dfs(source,adj,visited,destination);
     }
 }
