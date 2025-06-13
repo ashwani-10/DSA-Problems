@@ -1,45 +1,33 @@
 class Solution {
+    public boolean isCycle(int node,List<List<Integer>> adj,boolean[] visited,boolean[] pVis){
+        visited[node] = true;
+        pVis[node] = true;
+
+        for(int nb : adj.get(node)){
+            if(!visited[nb]){
+                if(isCycle(nb,adj,visited,pVis)) return true;
+            } else if(pVis[nb]) return true;
+        }
+
+        pVis[node] = false;
+        return false;
+    }
+
     public boolean canFinish(int n, int[][] prerequisites) {
-        ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
-        
-        for(int i = 0;i<n;i++){
-            adj.add(new ArrayList<>());
+        List<List<Integer>> adj = new ArrayList<>();
+        for (int i = 0; i < n; i++) adj.add(new ArrayList<>());
+        for (int[] edge : prerequisites) {
+            int u = edge[0], v = edge[1];
+            adj.get(v).add(u); // undirected
         }
-        for(int i=0;i<prerequisites.length;i++){
-            int u = prerequisites[i][1];
-            int v = prerequisites[i][0];
-            
-            adj.get(u).add(v);
-        }
-        
-        int indegre[] = new int[n];
-        
+
+        boolean[] visited = new boolean[n];
+        boolean[] pVis = new boolean[n];
+
         for(int i=0;i<n;i++){
-            for(int it : adj.get(i)){
-                indegre[it]++;
-            }
+            if(isCycle(i,adj,visited,pVis)) return false;
         }
-        int count = 0;
-        Queue<Integer> q = new LinkedList<>();
-        for(int i=0;i<n;i++){
-            if(indegre[i] == 0){
-                q.add(i);
-                count++;
-            }
-        }
-        
-        while(!q.isEmpty()){
-            int node = q.remove();
-            
-            for(int it : adj.get(node)){
-                indegre[it]--;
-                
-                if(indegre[it] == 0){
-                    q.add(it);
-                    count++;
-                }
-            }
-        }
-        return count == n ? true : false;
+
+        return true;
     }
 }
