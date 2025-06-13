@@ -15,30 +15,26 @@ class Solution {
             }
         }
         Queue<Integer> q = new LinkedList<>();
-        int count = 0;
 
         for(int i=0;i<n;i++){
             if(indegree[i] == 0){
                 q.add(i);
-                count++;
             }
         }
         int[] res = new int[n];
         int i = 0;
+
         while(!q.isEmpty()){
             int node = q.remove();
-            res[i] = node; i++;
+            res[i++] = node;
             for(int it : adj.get(node)){
                 indegree[it]--;
 
-                if(indegree[it] == 0){
-                    q.add(it);
-                    count++;
-                }
+                if(indegree[it] == 0) q.add(it);
             }
         }
 
-        if(count != n) return new int[0];
+        if(i != n) return new int[0];
 
         return res;
     }
