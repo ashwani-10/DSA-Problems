@@ -1,41 +1,45 @@
 class Solution {
     public int[] findOrder(int n, int[][] prerequisites) {
-        int indegree[] = new int[n];
-        ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
-
-        for(int i=1;i<=n;i++) adj.add(new ArrayList<>());
-
-        for(int i=0;i<prerequisites.length; i++){
-            int u = prerequisites[i][0];
-            int v = prerequisites[i][1];
-
-            adj.get(v).add(u);
-            indegree[u]++;
+        List<List<Integer>> adj = new ArrayList<>();
+        for (int i = 0; i < n; i++) adj.add(new ArrayList<>());
+        for (int[] edge : prerequisites) {
+            int u = edge[0], v = edge[1];
+            adj.get(v).add(u); // u dependes on v
         }
-        Queue<Integer> pq = new LinkedList<>();
-        for(int i=0;i<n;i++) if(indegree[i] == 0) pq.add(i);
-        //BFS
-        // ans array to store toposort
-        ArrayList<Integer> ans = new ArrayList<>();
-        
-        while(!pq.isEmpty()){
-            int node = pq.remove();
-            ans.add(node);
-            for(Integer it : adj.get(node)){
+
+        int[] indegree = new int[n];
+
+        for(int i=0;i<n;i++){
+            for(int it : adj.get(i)){
+                indegree[it]++;
+            }
+        }
+        Queue<Integer> q = new LinkedList<>();
+        int count = 0;
+
+        for(int i=0;i<n;i++){
+            if(indegree[i] == 0){
+                q.add(i);
+                count++;
+            }
+        }
+        int[] res = new int[n];
+        int i = 0;
+        while(!q.isEmpty()){
+            int node = q.remove();
+            res[i] = node; i++;
+            for(int it : adj.get(node)){
                 indegree[it]--;
-                if(indegree[it] == 0) pq.add(it);
+
+                if(indegree[it] == 0){
+                    q.add(it);
+                    count++;
+                }
             }
         }
 
-        if(ans.size() == n){
-            int []res = new int[n];
-            for(int i=0;i<n;i++){
-                res[i] = ans.get(i);
-            }
+        if(count != n) return new int[0];
 
-            return res;
-        }
-        int [] res = new int[0];
         return res;
     }
 }
