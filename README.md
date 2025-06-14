@@ -375,6 +375,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0820-find-eventual-safe-states](https://github.com/ashwani-10/DSA-Problems/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/ashwani-10/DSA-Problems/tree/master/0854-making-a-large-island) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ashwani-10/DSA-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1300-critical-connections-in-a-network](https://github.com/ashwani-10/DSA-Problems/tree/master/1300-critical-connections-in-a-network) |
 | [1396-count-servers-that-communicate](https://github.com/ashwani-10/DSA-Problems/tree/master/1396-count-servers-that-communicate) |
 | [1558-course-schedule-iv](https://github.com/ashwani-10/DSA-Problems/tree/master/1558-course-schedule-iv) |
 | [2121-find-if-path-exists-in-graph](https://github.com/ashwani-10/DSA-Problems/tree/master/2121-find-if-path-exists-in-graph) |
@@ -532,6 +533,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0684-redundant-connection](https://github.com/ashwani-10/DSA-Problems/tree/master/0684-redundant-connection) |
 | [0813-all-paths-from-source-to-target](https://github.com/ashwani-10/DSA-Problems/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/ashwani-10/DSA-Problems/tree/master/0820-find-eventual-safe-states) |
+| [1300-critical-connections-in-a-network](https://github.com/ashwani-10/DSA-Problems/tree/master/1300-critical-connections-in-a-network) |
 | [1558-course-schedule-iv](https://github.com/ashwani-10/DSA-Problems/tree/master/1558-course-schedule-iv) |
 | [2121-find-if-path-exists-in-graph](https://github.com/ashwani-10/DSA-Problems/tree/master/2121-find-if-path-exists-in-graph) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/ashwani-10/DSA-Problems/tree/master/2564-most-profitable-path-in-a-tree) |
@@ -556,4 +558,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3864-count-the-number-of-computer-unlocking-permutations](https://github.com/ashwani-10/DSA-Problems/tree/master/3864-count-the-number-of-computer-unlocking-permutations) |
+## Biconnected Component
+|  |
+| ------- |
+| [1300-critical-connections-in-a-network](https://github.com/ashwani-10/DSA-Problems/tree/master/1300-critical-connections-in-a-network) |
 <!---LeetCode Topics End-->
