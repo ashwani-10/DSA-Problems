@@ -330,6 +330,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0025-reverse-nodes-in-k-group](https://github.com/ashwani-10/DSA-Problems/tree/master/0025-reverse-nodes-in-k-group) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/ashwani-10/DSA-Problems/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0138-copy-list-with-random-pointer](https://github.com/ashwani-10/DSA-Problems/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/ashwani-10/DSA-Problems/tree/master/0141-linked-list-cycle) |
@@ -520,6 +521,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0025-reverse-nodes-in-k-group](https://github.com/ashwani-10/DSA-Problems/tree/master/0025-reverse-nodes-in-k-group) |
 | [0050-powx-n](https://github.com/ashwani-10/DSA-Problems/tree/master/0050-powx-n) |
 | [0143-reorder-list](https://github.com/ashwani-10/DSA-Problems/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/ashwani-10/DSA-Problems/tree/master/0206-reverse-linked-list) |
