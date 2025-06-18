@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/ashwani-10/DSA-Problems/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/ashwani-10/DSA-Problems/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1651-shuffle-string](https://github.com/ashwani-10/DSA-Problems/tree/master/1651-shuffle-string) |
+| [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/ashwani-10/DSA-Problems/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1876-map-of-highest-peak](https://github.com/ashwani-10/DSA-Problems/tree/master/1876-map-of-highest-peak) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/ashwani-10/DSA-Problems/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/ashwani-10/DSA-Problems/tree/master/1927-maximum-ascending-subarray-sum) |
@@ -189,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1016-subarray-sums-divisible-by-k](https://github.com/ashwani-10/DSA-Problems/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/ashwani-10/DSA-Problems/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/ashwani-10/DSA-Problems/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/ashwani-10/DSA-Problems/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/ashwani-10/DSA-Problems/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2145-grid-game](https://github.com/ashwani-10/DSA-Problems/tree/master/2145-grid-game) |
 | [2358-number-of-ways-to-split-array](https://github.com/ashwani-10/DSA-Problems/tree/master/2358-number-of-ways-to-split-array) |
@@ -238,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1364-tuple-with-same-product](https://github.com/ashwani-10/DSA-Problems/tree/master/1364-tuple-with-same-product) |
 | [1502-construct-k-palindrome-strings](https://github.com/ashwani-10/DSA-Problems/tree/master/1502-construct-k-palindrome-strings) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/ashwani-10/DSA-Problems/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
+| [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/ashwani-10/DSA-Problems/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/ashwani-10/DSA-Problems/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2685-first-completely-painted-row-or-column](https://github.com/ashwani-10/DSA-Problems/tree/master/2685-first-completely-painted-row-or-column) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/ashwani-10/DSA-Problems/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
@@ -474,6 +477,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/ashwani-10/DSA-Problems/tree/master/0907-koko-eating-bananas) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/ashwani-10/DSA-Problems/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/ashwani-10/DSA-Problems/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
+| [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/ashwani-10/DSA-Problems/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -489,6 +493,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/ashwani-10/DSA-Problems/tree/master/0567-permutation-in-string) |
 | [0713-subarray-product-less-than-k](https://github.com/ashwani-10/DSA-Problems/tree/master/0713-subarray-product-less-than-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/ashwani-10/DSA-Problems/tree/master/0966-binary-subarrays-with-sum) |
+| [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/ashwani-10/DSA-Problems/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 ## Tree
 |  |
 | ------- |
