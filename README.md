@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/ashwani-10/DSA-Problems/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/ashwani-10/DSA-Problems/tree/master/0198-house-robber) |
 | [0238-product-of-array-except-self](https://github.com/ashwani-10/DSA-Problems/tree/master/0238-product-of-array-except-self) |
+| [0268-missing-number](https://github.com/ashwani-10/DSA-Problems/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/ashwani-10/DSA-Problems/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/ashwani-10/DSA-Problems/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/ashwani-10/DSA-Problems/tree/master/0300-longest-increasing-subsequence) |
@@ -230,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/ashwani-10/DSA-Problems/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/ashwani-10/DSA-Problems/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/ashwani-10/DSA-Problems/tree/master/0169-majority-element) |
+| [0268-missing-number](https://github.com/ashwani-10/DSA-Problems/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/ashwani-10/DSA-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0523-continuous-subarray-sum](https://github.com/ashwani-10/DSA-Problems/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/ashwani-10/DSA-Problems/tree/master/0525-contiguous-array) |
@@ -273,6 +275,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/ashwani-10/DSA-Problems/tree/master/0018-4sum) |
 | [0049-group-anagrams](https://github.com/ashwani-10/DSA-Problems/tree/master/0049-group-anagrams) |
 | [0169-majority-element](https://github.com/ashwani-10/DSA-Problems/tree/master/0169-majority-element) |
+| [0268-missing-number](https://github.com/ashwani-10/DSA-Problems/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/ashwani-10/DSA-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0561-array-partition](https://github.com/ashwani-10/DSA-Problems/tree/master/0561-array-partition) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ashwani-10/DSA-Problems/tree/master/0581-shortest-unsorted-continuous-subarray) |
@@ -308,6 +311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0007-reverse-integer](https://github.com/ashwani-10/DSA-Problems/tree/master/0007-reverse-integer) |
 | [0050-powx-n](https://github.com/ashwani-10/DSA-Problems/tree/master/0050-powx-n) |
 | [0070-climbing-stairs](https://github.com/ashwani-10/DSA-Problems/tree/master/0070-climbing-stairs) |
+| [0268-missing-number](https://github.com/ashwani-10/DSA-Problems/tree/master/0268-missing-number) |
 | [0342-power-of-four](https://github.com/ashwani-10/DSA-Problems/tree/master/0342-power-of-four) |
 | [0477-total-hamming-distance](https://github.com/ashwani-10/DSA-Problems/tree/master/0477-total-hamming-distance) |
 | [0523-continuous-subarray-sum](https://github.com/ashwani-10/DSA-Problems/tree/master/0523-continuous-subarray-sum) |
@@ -434,6 +438,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0136-single-number](https://github.com/ashwani-10/DSA-Problems/tree/master/0136-single-number) |
 | [0191-number-of-1-bits](https://github.com/ashwani-10/DSA-Problems/tree/master/0191-number-of-1-bits) |
+| [0268-missing-number](https://github.com/ashwani-10/DSA-Problems/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/ashwani-10/DSA-Problems/tree/master/0287-find-the-duplicate-number) |
 | [0342-power-of-four](https://github.com/ashwani-10/DSA-Problems/tree/master/0342-power-of-four) |
 | [0461-hamming-distance](https://github.com/ashwani-10/DSA-Problems/tree/master/0461-hamming-distance) |
@@ -473,6 +478,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/ashwani-10/DSA-Problems/tree/master/0033-search-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/ashwani-10/DSA-Problems/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ashwani-10/DSA-Problems/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0268-missing-number](https://github.com/ashwani-10/DSA-Problems/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/ashwani-10/DSA-Problems/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/ashwani-10/DSA-Problems/tree/master/0300-longest-increasing-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/ashwani-10/DSA-Problems/tree/master/0410-split-array-largest-sum) |
