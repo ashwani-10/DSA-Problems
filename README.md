@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/ashwani-10/DSA-Problems/tree/master/0560-subarray-sum-equals-k) |
 | [0561-array-partition](https://github.com/ashwani-10/DSA-Problems/tree/master/0561-array-partition) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ashwani-10/DSA-Problems/tree/master/0581-shortest-unsorted-continuous-subarray) |
+| [0611-valid-triangle-number](https://github.com/ashwani-10/DSA-Problems/tree/master/0611-valid-triangle-number) |
 | [0621-task-scheduler](https://github.com/ashwani-10/DSA-Problems/tree/master/0621-task-scheduler) |
 | [0628-maximum-product-of-three-numbers](https://github.com/ashwani-10/DSA-Problems/tree/master/0628-maximum-product-of-three-numbers) |
 | [0645-set-mismatch](https://github.com/ashwani-10/DSA-Problems/tree/master/0645-set-mismatch) |
@@ -154,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0557-reverse-words-in-a-string-iii](https://github.com/ashwani-10/DSA-Problems/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0567-permutation-in-string](https://github.com/ashwani-10/DSA-Problems/tree/master/0567-permutation-in-string) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ashwani-10/DSA-Problems/tree/master/0581-shortest-unsorted-continuous-subarray) |
+| [0611-valid-triangle-number](https://github.com/ashwani-10/DSA-Problems/tree/master/0611-valid-triangle-number) |
 | [0908-middle-of-the-linked-list](https://github.com/ashwani-10/DSA-Problems/tree/master/0908-middle-of-the-linked-list) |
 | [1019-squares-of-a-sorted-array](https://github.com/ashwani-10/DSA-Problems/tree/master/1019-squares-of-a-sorted-array) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/ashwani-10/DSA-Problems/tree/master/2320-find-all-k-distant-indices-in-an-array) |
@@ -264,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/ashwani-10/DSA-Problems/tree/master/0410-split-array-largest-sum) |
 | [0561-array-partition](https://github.com/ashwani-10/DSA-Problems/tree/master/0561-array-partition) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ashwani-10/DSA-Problems/tree/master/0581-shortest-unsorted-continuous-subarray) |
+| [0611-valid-triangle-number](https://github.com/ashwani-10/DSA-Problems/tree/master/0611-valid-triangle-number) |
 | [0621-task-scheduler](https://github.com/ashwani-10/DSA-Problems/tree/master/0621-task-scheduler) |
 | [1502-construct-k-palindrome-strings](https://github.com/ashwani-10/DSA-Problems/tree/master/1502-construct-k-palindrome-strings) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/ashwani-10/DSA-Problems/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
@@ -281,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/ashwani-10/DSA-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0561-array-partition](https://github.com/ashwani-10/DSA-Problems/tree/master/0561-array-partition) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ashwani-10/DSA-Problems/tree/master/0581-shortest-unsorted-continuous-subarray) |
+| [0611-valid-triangle-number](https://github.com/ashwani-10/DSA-Problems/tree/master/0611-valid-triangle-number) |
 | [0621-task-scheduler](https://github.com/ashwani-10/DSA-Problems/tree/master/0621-task-scheduler) |
 | [0628-maximum-product-of-three-numbers](https://github.com/ashwani-10/DSA-Problems/tree/master/0628-maximum-product-of-three-numbers) |
 | [0645-set-mismatch](https://github.com/ashwani-10/DSA-Problems/tree/master/0645-set-mismatch) |
@@ -485,6 +489,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/ashwani-10/DSA-Problems/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/ashwani-10/DSA-Problems/tree/master/0300-longest-increasing-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/ashwani-10/DSA-Problems/tree/master/0410-split-array-largest-sum) |
+| [0611-valid-triangle-number](https://github.com/ashwani-10/DSA-Problems/tree/master/0611-valid-triangle-number) |
 | [0713-subarray-product-less-than-k](https://github.com/ashwani-10/DSA-Problems/tree/master/0713-subarray-product-less-than-k) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/ashwani-10/DSA-Problems/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0907-koko-eating-bananas](https://github.com/ashwani-10/DSA-Problems/tree/master/0907-koko-eating-bananas) |
