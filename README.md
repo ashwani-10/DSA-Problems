@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/ashwani-10/DSA-Problems/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/ashwani-10/DSA-Problems/tree/master/0053-maximum-subarray) |
 | [0073-set-matrix-zeroes](https://github.com/ashwani-10/DSA-Problems/tree/master/0073-set-matrix-zeroes) |
+| [0078-subsets](https://github.com/ashwani-10/DSA-Problems/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/ashwani-10/DSA-Problems/tree/master/0079-word-search) |
 | [0118-pascals-triangle](https://github.com/ashwani-10/DSA-Problems/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/ashwani-10/DSA-Problems/tree/master/0119-pascals-triangle-ii) |
@@ -379,6 +380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/ashwani-10/DSA-Problems/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/ashwani-10/DSA-Problems/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/ashwani-10/DSA-Problems/tree/master/0077-combinations) |
+| [0078-subsets](https://github.com/ashwani-10/DSA-Problems/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/ashwani-10/DSA-Problems/tree/master/0079-word-search) |
 | [0813-all-paths-from-source-to-target](https://github.com/ashwani-10/DSA-Problems/tree/master/0813-all-paths-from-source-to-target) |
 ## Depth-First Search
@@ -444,6 +446,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/ashwani-10/DSA-Problems/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/ashwani-10/DSA-Problems/tree/master/0136-single-number) |
 | [0191-number-of-1-bits](https://github.com/ashwani-10/DSA-Problems/tree/master/0191-number-of-1-bits) |
 | [0268-missing-number](https://github.com/ashwani-10/DSA-Problems/tree/master/0268-missing-number) |
